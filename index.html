@@ -1,0 +1,1649 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LS PURO Launch Strategy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Go-to-market strategy for LS PURO: brand, product quality, pricing, retail and distributor acquisition, 90-day launch, and compliance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..700&family=Jost:wght@300..600&display=swap">
+<style>
+/* Layout: a private-lounge dossier. Dark humidor-green pages carry the strategy; ivory "box insert" papers carry the documents a retailer actually holds; gold hairlines and stamp-style tags mark what is verified versus assumed. */
+:root{
+  --ink:#0a1410;
+  --lounge:#0f1e18;
+  --felt:#142a21;
+  --felt-hi:#1b3529;
+  --gold:#c9a45b;
+  --gold-hi:#e4cd95;
+  --gold-lo:#8d733f;
+  --text:#ece5d5;
+  --mute:#a9b4ab;
+  --line:rgba(201,164,91,.28);
+  --hair:rgba(236,229,213,.12);
+  --ivory:#efe7d5;
+  --paper-ink:#1e1b15;
+  --paper-mute:#5d5547;
+  --paper-line:#d3c6aa;
+  --ok:#8fc3a5;
+  --est:#e0b864;
+  --assume:#b8c1cf;
+  --risk:#e58e66;
+  --walnut:#6e5a4f;
+  --croc:#835d46;
+  --f-display:"Bodoni Moda","Bodoni 72","Didot",Georgia,serif;
+  --f-text:"Jost","Futura","Avenir Next","Century Gothic",system-ui,sans-serif;
+  --step--1:clamp(.8rem,.78rem + .1vw,.86rem);
+  --step-0:clamp(1rem,.97rem + .15vw,1.06rem);
+  --step-1:clamp(1.18rem,1.08rem + .4vw,1.38rem);
+  --step-2:clamp(1.45rem,1.25rem + .9vw,1.95rem);
+  --step-3:clamp(1.95rem,1.55rem + 1.8vw,2.95rem);
+  --step-4:clamp(2.5rem,1.8rem + 3.3vw,4.5rem);
+  --gutter:clamp(16px,4vw,44px);
+  --wrap:1180px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:118px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--ink);color:var(--text);font-family:var(--f-text);font-size:var(--step-0);line-height:1.62;font-weight:350;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--gold-hi);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--text)}
+:focus-visible{outline:2px solid var(--gold-hi);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--f-display);font-weight:500;line-height:1.1;margin:0;text-wrap:balance}
+h2{font-size:var(--step-3);letter-spacing:-.01em}
+h3{font-size:var(--step-1);font-weight:600;line-height:1.25}
+h4{margin:0;font-size:var(--step--1);font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+p,ul,ol{margin:0}
+ul,ol{padding-left:1.2em}
+li+li{margin-top:.35em}
+strong{font-weight:550;color:var(--text)}
+em{font-style:italic}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+.prose{max-width:68ch}
+.stack{display:grid;gap:1rem}
+.stack-lg{display:grid;gap:2rem}
+.mute{color:var(--mute)}
+.small{font-size:var(--step--1)}
+.num{font-variant-numeric:tabular-nums lining-nums}
+.eyebrow{font-size:var(--step--1);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+
+/* ---------- top bar ---------- */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--ink)}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(10,20,16,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .row{display:flex;align-items:center;gap:14px;min-height:50px}
+.brandmark{font-family:var(--f-display);font-size:1rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-hi);text-decoration:none;white-space:nowrap}
+.topbar .meta{font-size:.74rem;color:var(--mute);letter-spacing:.14em;text-transform:uppercase;margin-left:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.toc{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-top:1px solid var(--hair)}
+.toc::-webkit-scrollbar{display:none}
+.toc a{flex:none;padding:7px 10px 8px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);text-decoration:none;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.toc a b{font-family:var(--f-display);font-style:italic;font-weight:500;color:var(--gold);letter-spacing:0;margin-right:5px;font-size:.86rem}
+.toc a.on,.toc a:hover{color:var(--text);border-bottom-color:var(--gold)}
+.progress{position:absolute;left:0;bottom:-1px;height:2px;width:100%;background:var(--gold);transform-origin:0 50%;transform:scaleX(0)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:#0f2019;display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);align-items:center;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-media img{width:100%;aspect-ratio:2000/1483;object-fit:cover;-webkit-mask-image:linear-gradient(90deg,#000 62%,transparent 99%);mask-image:linear-gradient(90deg,#000 62%,transparent 99%)}
+.hero-copy{padding-block:48px;padding-right:max(var(--gutter),env(safe-area-inset-right,0px));padding-left:12px;display:grid;gap:22px;max-width:620px}
+.hero h1{font-size:var(--step-4);font-weight:500;line-height:1.02;letter-spacing:-.015em}
+.hero h1 em{color:var(--gold-hi);font-weight:400}
+.hero .lede{font-size:var(--step-1);font-weight:300;line-height:1.5;color:var(--text)}
+.hero-lines{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--mute);padding-top:14px;border-top:1px solid var(--line)}
+.hero-lines span{white-space:nowrap}
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr}
+  .hero-media img{-webkit-mask-image:linear-gradient(180deg,#000 70%,transparent);mask-image:linear-gradient(180deg,#000 70%,transparent)}
+  .hero-copy{margin-top:-40px;padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-block:0 40px}
+}
+
+/* ---------- sections ---------- */
+section.sec{padding-block:clamp(56px,8vw,104px);border-bottom:1px solid var(--hair)}
+section.sec.alt{background:var(--lounge)}
+.sec-head{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(16px,3vw,36px);align-items:start;margin-bottom:clamp(28px,4vw,48px)}
+.sec-no{font-family:var(--f-display);font-style:italic;font-weight:400;font-size:clamp(3rem,2rem + 4vw,5.5rem);line-height:.85;color:var(--gold);min-width:1.6ch}
+.sec-head .lede{margin-top:14px;font-size:var(--step-1);font-weight:300;color:var(--mute);max-width:62ch;line-height:1.5}
+.sub{margin-top:clamp(36px,5vw,56px);display:grid;gap:16px}
+.sub>h3{padding-bottom:10px;border-bottom:1px solid var(--line)}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:16px}
+.grid-2>*,.grid-3>*,.grid-4>*,.sub>*,.stack>*,.stack-lg>*,.card>*,.paper>*,.phase>*{min-width:0}
+.card{background:var(--felt);border:1px solid var(--hair);border-radius:4px;padding:20px 22px;display:grid;gap:10px;align-content:start}
+.card h3{font-size:1.18rem}
+.card.gold{border-color:var(--line);background:linear-gradient(180deg,var(--felt-hi),var(--felt))}
+.kv{display:grid;grid-template-columns:minmax(0,180px) minmax(0,1fr);gap:8px 20px}
+.kv dt{color:var(--gold);font-size:var(--step--1);letter-spacing:.12em;text-transform:uppercase;padding-top:2px}
+.kv dd{margin:0}
+@media (max-width:560px){.kv{grid-template-columns:1fr}.kv dd{margin-bottom:8px}}
+.quote{font-family:var(--f-display);font-size:var(--step-2);line-height:1.3;font-weight:400;font-style:italic;color:var(--gold-hi);max-width:30ch}
+.callout{border-left:2px solid var(--gold);padding:4px 0 4px 18px;color:var(--text);max-width:72ch}
+.callout.risk{border-left-color:var(--risk)}
+
+/* evidence tags: stamped like a box seal */
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:var(--f-text);font-size:.64rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;line-height:1;padding:4px 7px 4px;border:1px solid currentColor;border-radius:2px;white-space:nowrap;vertical-align:.18em;font-style:normal}
+.t-ver{color:var(--ok)}
+.t-est{color:var(--est)}
+.t-asm{color:var(--assume)}
+.t-rec{color:var(--gold-hi);border-style:double;border-width:3px;padding:2px 6px}
+.t-mis{color:var(--risk)}
+.t-law{color:var(--risk);background:rgba(229,142,102,.1)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.legend div{display:flex;gap:8px;align-items:center;font-size:var(--step--1);color:var(--mute)}
+
+/* tables */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--hair);border-radius:4px;background:var(--felt)}
+table{width:100%;border-collapse:collapse;font-size:.93rem}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--hair);vertical-align:top}
+thead th{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;background:rgba(0,0,0,.18);white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right;font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}
+tfoot td{border-top:1px solid var(--line);border-bottom:0;font-weight:500;color:var(--gold-hi)}
+.tbl-note{font-size:var(--step--1);color:var(--mute);margin-top:8px;max-width:90ch}
+table.wide{min-width:760px}
+
+/* paper inserts */
+.paper{background:var(--ivory);color:var(--paper-ink);border-radius:2px;padding:clamp(22px,4vw,44px);box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 18px 40px -24px rgba(0,0,0,.8);position:relative}
+.paper::before{content:"";position:absolute;inset:8px;border:1px solid var(--paper-line);pointer-events:none}
+.paper h3,.paper h4{color:var(--paper-ink)}
+.paper h4{color:#7a5f2c}
+.paper a{color:#6b5221}
+.paper .mute,.paper .tbl-note{color:var(--paper-mute)}
+.paper strong{color:var(--paper-ink)}
+.paper .tbl-wrap{background:transparent;border-color:var(--paper-line)}
+.paper th,.paper td{border-bottom-color:var(--paper-line)}
+.paper thead th{color:#7a5f2c;background:rgba(122,95,44,.07)}
+.paper tfoot td{color:var(--paper-ink);border-top-color:#a99668}
+.paper .t-mis{color:#a4441f}
+.paper .t-ver{color:#2f6b4c}
+.paper .t-est{color:#8a6312}
+.letter{font-size:1rem;line-height:1.7;display:grid;gap:14px;max-width:70ch;position:relative}
+.letter .ph{background:rgba(164,68,31,.1);color:#8a3a1a;padding:0 3px;border-radius:2px}
+.paper-head{display:flex;align-items:center;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--paper-line);margin-bottom:6px}
+.paper-head img{width:44px;height:auto}
+.paper-head .who{font-family:var(--f-display);font-size:1.15rem;letter-spacing:.18em;text-transform:uppercase}
+.paper-head .what{margin-left:auto;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-mute);text-align:right}
+
+/* figures */
+figure{margin:0;display:grid;gap:8px}
+figcaption{font-size:var(--step--1);color:var(--mute)}
+.photo{border:1px solid var(--line);border-radius:3px;overflow:hidden;background:#000}
+.photo img{width:100%}
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:18px}
+
+/* steps */
+ol.steps{list-style:none;padding:0;counter-reset:s;display:grid;gap:0}
+ol.steps>li{counter-increment:s;display:grid;grid-template-columns:3.2rem minmax(0,1fr);gap:4px 14px;padding:16px 0;border-top:1px solid var(--hair);margin:0}
+ol.steps>li::before{content:counter(s,decimal-leading-zero);font-family:var(--f-display);font-style:italic;font-size:1.6rem;line-height:1;color:var(--gold);grid-row:span 2}
+ol.steps>li>strong{font-weight:550}
+ol.steps>li>span,ol.steps>li>div{grid-column:2;color:var(--mute)}
+.paper ol.steps>li{border-top-color:var(--paper-line)}
+.paper ol.steps>li::before{color:#8d6b2a}
+.paper ol.steps>li>span,.paper ol.steps>li>div{color:var(--paper-mute)}
+
+/* timeline */
+.phase{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:20px;padding:24px 0;border-top:1px solid var(--line)}
+.phase-tag{display:grid;gap:6px;align-content:start}
+.phase-tag .days{font-family:var(--f-display);font-size:var(--step-2);color:var(--gold-hi);line-height:1}
+.phase-tag .name{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.phase .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:14px 26px}
+.phase .cols>div{min-width:0}
+.phase h4{margin-bottom:6px}
+.phase ul{padding-left:1.05em;color:var(--text)}
+@media (max-width:720px){.phase{grid-template-columns:1fr;gap:12px}}
+.bar{display:flex;height:12px;border-radius:6px;overflow:hidden;border:1px solid var(--hair)}
+.bar span{display:block;height:100%}
+
+/* swatches */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px}
+.sw{border:1px solid var(--hair);border-radius:3px;overflow:hidden;background:var(--felt)}
+.sw i{display:block;height:74px}
+.sw div{padding:10px 12px;font-size:.84rem;line-height:1.35}
+.sw div b{display:block;font-weight:500}
+.sw div span{color:var(--mute);font-size:.76rem}
+
+/* marks plate */
+.plate{background:var(--ivory);border-radius:2px;padding:28px;display:flex;flex-wrap:wrap;gap:28px 40px;align-items:center;justify-content:center}
+.plate img{height:120px;width:auto}
+
+/* calculator */
+.calc{border:1px solid var(--line);border-radius:4px;background:var(--felt);overflow:hidden}
+.calc-top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--hair);background:rgba(0,0,0,.18)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:3px;overflow:hidden;flex-wrap:wrap}
+.seg button{font:inherit;font-size:.8rem;letter-spacing:.08em;background:transparent;color:var(--mute);border:0;padding:8px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--gold);color:#16120a}
+.seg button:hover{color:var(--text)}
+.seg button[aria-pressed="true"]:hover{color:#16120a}
+.calc-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+@media (max-width:860px){.calc-body{grid-template-columns:1fr}}
+.calc-in{padding:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px 16px;border-right:1px solid var(--hair);align-content:start}
+.field{display:grid;gap:4px;min-width:0}
+.field label{font-size:.74rem;letter-spacing:.08em;color:var(--mute)}
+.field input,.field select{font:inherit;font-size:.95rem;font-variant-numeric:tabular-nums;color:var(--text);background:var(--ink);border:1px solid var(--hair);border-radius:3px;padding:8px 10px;width:100%;min-width:0}
+.field input:focus,.field select:focus{border-color:var(--gold);outline:none}
+.calc-out{padding:18px;display:grid;gap:16px;align-content:start}
+.out-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px}
+.out{border:1px solid var(--hair);border-radius:3px;padding:10px 12px}
+.out .l{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.out .v{font-family:var(--f-display);font-size:1.45rem;color:var(--text);font-variant-numeric:lining-nums tabular-nums;line-height:1.2}
+.out .v small{font-family:var(--f-text);font-size:.78rem;color:var(--mute)}
+.out.key{border-color:var(--gold-lo);background:rgba(201,164,91,.07)}
+.out.key .v{color:var(--gold-hi)}
+.out.bad{border-color:var(--risk)}
+.out.bad .v{color:var(--risk)}
+.waterfall{display:grid;gap:8px}
+.wf-bar{display:flex;height:30px;border-radius:3px;overflow:hidden;border:1px solid var(--hair)}
+.wf-bar span{height:100%;min-width:0;transition:flex-basis .3s}
+.wf-key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.76rem;color:var(--mute)}
+.wf-key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+
+/* slides */
+.deck{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+.slide{aspect-ratio:16/10;max-width:100%;border:1px solid var(--line);border-radius:3px;background:linear-gradient(160deg,var(--felt-hi),var(--ink));padding:18px 20px;display:grid;grid-template-rows:auto auto 1fr;gap:6px;position:relative;overflow:hidden}
+.slide .n{font-family:var(--f-display);font-style:italic;color:var(--gold);font-size:1.05rem}
+.slide h3{font-size:1.12rem;font-weight:600}
+.slide ul{font-size:.82rem;color:var(--mute);padding-left:1em;line-height:1.45;align-self:end}
+.slide ul li+li{margin-top:.15em}
+.slide.img{background-size:cover;background-position:center}
+.slide.img::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,16,.25),rgba(10,20,16,.92) 62%)}
+.slide.img>*{position:relative}
+@media (max-width:380px){.slide{aspect-ratio:auto;min-height:200px}}
+
+/* register */
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.status .card ul{padding-left:1.05em}
+.status .card li{font-size:.95rem}
+
+footer{padding-block:48px 64px;color:var(--mute);font-size:var(--step--1)}
+footer .row{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+footer img{height:56px;width:auto;background:var(--ivory);padding:8px;border-radius:2px}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap row">
+    <a class="brandmark" href="#top">LS Puro</a>
+    <span class="meta">Go-to-market plan · Nov 2026</span>
+  </div>
+  <nav class="toc wrap" aria-label="Sections">
+    <a href="#status"><b>·</b>Status</a>
+    <a href="#brand"><b>01</b>Brand</a>
+    <a href="#product"><b>02</b>Product</a>
+    <a href="#market"><b>03</b>Market</a>
+    <a href="#pricing"><b>04</b>Pricing</a>
+    <a href="#retail"><b>05</b>Retail</a>
+    <a href="#launch"><b>06</b>Launch</a>
+    <a href="#experience"><b>07</b>Experience</a>
+    <a href="#website"><b>08</b>Website</a>
+    <a href="#compliance"><b>09</b>Compliance</a>
+    <a href="#operations"><b>10</b>Operations</a>
+    <a href="#deck"><b>11</b>Presentation</a>
+    <a href="#recommendations"><b>12</b>Verdict</a>
+    <a href="#appendix"><b>A</b>Appendix</a>
+  </nav>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero" aria-label="Introduction">
+  <div class="hero-media">
+    <img src="img/hero.jpg" width="2000" height="1483" alt="Lenny Santos playing guitar in stage smoke, beneath the gold Puro by Lenny Santos mark and his signature">
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">LS PURO LLC · Go-to-market strategy</p>
+    <h1>Introducing a new standard of <em>luxury.</em></h1>
+    <p class="lede">The plan to take LS PURO from blend approval to its first qualified humidors: brand, product quality, pricing, retail and distributor acquisition, a 90-day launch, and the compliance work that has to come first.</p>
+    <div class="hero-lines"><span>Perfect Melody</span><span>Legend Blend</span><span>Don Marino</span></div>
+  </div>
+</section>
+
+<!-- ================= STATUS ================= -->
+<section class="sec" id="status">
+  <div class="wrap stack-lg">
+    <div class="grid-2" style="align-items:end">
+      <div class="stack">
+        <p class="eyebrow">Read this first</p>
+        <h2>Where LS PURO stands today</h2>
+        <p class="mute prose">This plan uses only what LS PURO has supplied (the 2026 Collection cover, the official marks, the accessories price list and product photography) plus public research. Anything not confirmed is labelled, so nobody mistakes a planning number for a quote.</p>
+      </div>
+      <div class="legend" aria-label="Evidence labels">
+        <div><span class="tag t-ver">Verified</span> from LS PURO materials or a cited source</div>
+        <div><span class="tag t-est">Estimate</span> planning range, not a quote</div>
+        <div><span class="tag t-asm">Assumption</span> placeholder to replace</div>
+        <div><span class="tag t-rec">Recommendation</span> our advice</div>
+        <div><span class="tag t-mis">Missing</span> must be supplied</div>
+        <div><span class="tag t-law">Attorney</span> needs tobacco counsel</div>
+      </div>
+    </div>
+
+    <div class="status">
+      <div class="card">
+        <h4>Confirmed in LS PURO materials <span class="tag t-ver">Verified</span></h4>
+        <ul>
+          <li>Official marks: the LS guitar pick, the LS / LENNY SANTOS wordmark, and the gold <em>Puro™</em> script.</li>
+          <li>2026 Collection cover with the signature line <strong>“Composed. Always.”</strong></li>
+          <li>Three named cigar lines: <strong>Perfect Melody, Legend Blend, Don Marino</strong>. Band designs exist for the Legend and Perfect Melody families.</li>
+          <li>A first documented blend: <strong>Perfect Melody Sumatra</strong> (The VIP Collection), 6 × 54, with Ecuador-grown Sumatra wrapper, Nicaraguan Corojo Criollo binder, and Dominican and Nicaraguan filler.</li>
+          <li>11 accessory SKUs with suggested retail and wholesale prices (cutters, torch lighters, travel case, ashtrays), plus an unnamed item 12.</li>
+          <li>Copyright line: © 2026 LS PURO LLC.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Must be confirmed before launch <span class="tag t-mis">Missing</span></h4>
+        <ul>
+          <li>Manufacturer, factory and master blender.</li>
+          <li>Blend specifications for Legend Blend and Don Marino; for every line, where it is rolled, aging, further vitolas and box counts.</li>
+          <li>Production capacity, minimums, lead times and landed cost.</li>
+          <li>Federal and state permits, labels, and the regulatory path for each SKU.</li>
+          <li>Trademark clearance for PURO and the LS marks in the cigar class.</li>
+          <li>A signed licence covering Lenny Santos's name, signature and likeness.</li>
+          <li>Launch budget, target date, and the identity of price-list item 12.</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>Decisions for leadership <span class="tag t-rec">Recommendation</span></h4>
+        <ul>
+          <li><strong>Price tier:</strong> ultra-premium core lines, plus one numbered limited release once the core sells through.</li>
+          <li><strong>Distribution:</strong> direct to 15–25 hand-picked humidors in 2–3 home markets first; add a distributor after reorders prove demand.</li>
+          <li><strong>Digital home:</strong> a dedicated, age-gated LS PURO site, separate from the music merchandise store.</li>
+          <li><strong>Debut:</strong> regional partner launch first. Use PCA 2027 (March 5–8, Las Vegas) to meet factories and distributors, and debut a booth the following year with sell-through data in hand.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 01 BRAND ================= -->
+<section class="sec alt" id="brand">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">01</span>
+      <div>
+        <p class="eyebrow">Brand identity &amp; market positioning</p>
+        <h2>A cigar house built on composition</h2>
+        <p class="lede">The established houses sell tobacco dynasties or Swiss precision. LS PURO can own a third idea that none of them has: authorship. Each blend is composed the way a song is composed, and signed with the guitar pick.</p>
+      </div>
+    </header>
+
+    <div class="grid-2">
+      <div class="stack">
+        <h3>What makes LS PURO different</h3>
+        <ul class="stack" style="gap:.6rem">
+          <li><strong>A real author, not an endorsement.</strong> Lenny Santos is presented as the composer of each line, with a named master blender and factory beside him. The celebrity opens the door; the blend and the factory earn the reorder.</li>
+          <li><strong>A complete ritual at launch.</strong> Cigar, cutter, lighter, ashtray and travel case under one mark from day one. Few new cigar brands arrive with a priced accessory collection already designed. <span class="tag t-ver">Verified</span></li>
+          <li><strong>A cultural root no competitor holds.</strong> Bachata is Dominican music; the Dominican Republic is also one of the great cigar origins. If the factory is Dominican (to be confirmed), the story writes itself honestly.</li>
+          <li><strong>A musical naming system.</strong> Perfect Melody, Legend Blend and Don Marino already read as movements of one work. Keep extending it: vitolas named for tempos or song forms, limited releases as “editions”.</li>
+        </ul>
+      </div>
+      <div class="stack">
+        <h3>Unique selling proposition</h3>
+        <p class="quote">“Luxury cigars composed like music: developed with a named master blender, blind-tested before release, and finished with a complete ritual under one signature.”</p>
+        <div class="callout small">
+          <strong>Guardrail.</strong> Retailers have watched celebrity cigars arrive with noise and fade within a year. Every brand message should lead with the cigar (factory, leaf, consistency, ratings) and let the name follow. Never use the Aventura name or marks without written rights. <span class="tag t-law">Attorney</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Personality, voice and the ideal customer</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Personality</h4>
+          <p><strong>Composed, unhurried, exacting, warm.</strong> Like a musician talking about craft after the show: few words, chosen carefully. Bilingual where it is natural, never forced.</p>
+          <p class="mute small">Avoid: nightclub imagery, party language, bottle-service flash, anything that reads young.</p>
+        </div>
+        <div class="card">
+          <h4>Voice in practice</h4>
+          <p><strong>Say:</strong> “Rested four months before it leaves the factory.” “Every box color-sorted by hand.”</p>
+          <p><strong>Don't say:</strong> “The smoothest cigar ever.” “Lit.” Health-adjacent words like “natural”, “clean” or “mild” without counsel review. <span class="tag t-law">Attorney</span></p>
+        </div>
+        <div class="card">
+          <h4>Ideal customers (21+ only)</h4>
+          <ul>
+            <li><strong>The Connoisseur:</strong> buys boxes, follows ratings, needs proof of quality.</li>
+            <li><strong>The Collector &amp; Gifter:</strong> buys limited editions and accessories for milestones.</li>
+            <li><strong>The Culture Loyalist:</strong> an established Latino professional who grew up on bachata, often newer to premium cigars and open to guidance.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="tbl-note">Personas are planning archetypes, not measured demographics. <span class="tag t-asm">Assumption</span></p>
+    </div>
+
+    <div class="sub">
+      <h3>Lenny Santos's role: present, never overshadowing</h3>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Use his legacy for</h4>
+          <ul>
+            <li>The founding story and the composition idea behind every line.</li>
+            <li>Naming, band art direction and the guitar-pick signature.</li>
+            <li>In-person moments with adults: partner-store evenings, trade shows, private tastings, all ID-checked.</li>
+            <li>Earned press: interviews in cigar and luxury media about the craft.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Keep him away from</h4>
+          <ul>
+            <li>Product promotion on his personal music channels, whose audience includes people under 21.</li>
+            <li>Claims about the blend he didn't make; credit the blender and factory by name.</li>
+            <li>His face on every band. The pick is the signature; the portrait belongs to the story.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Mission, vision, values and story</h3>
+      <dl class="kv">
+        <dt>Mission</dt><dd>To craft cigars and smoking accessories with the discipline of music: balanced, consistent, and made to be shared at the table.</dd>
+        <dt>Vision</dt><dd>To be the luxury house that carries the Dominican art of composition into the world's finest humidors, and stays there on quality.</dd>
+        <dt>Values</dt><dd><strong>Composition</strong> (balance over noise) · <strong>Consistency</strong> (every box like the first) · <strong>Provenance</strong> (we name where and who) · <strong>Respect for the ritual</strong> (adults only, enjoyed responsibly) · <strong>Hospitality</strong> (the table and the conversation).</dd>
+        <dt>Positioning</dt><dd>For discerning adult cigar smokers who value craftsmanship and real authorship, LS PURO is the luxury cigar house composed by Lenny Santos that delivers balanced, consistently built, limited-production cigars and a complete accessory ritual, because every blend is developed with a named master blender and released only after blind testing.</dd>
+        <dt>Taglines</dt><dd>1. <strong>“Composed. Always.”</strong> (already on the 2026 cover; keep it as the signature) · 2. “Every blend, a composition.” · 3. “Hand-rolled. Fine-tuned.”</dd>
+      </dl>
+      <div class="grid-2" style="margin-top:8px">
+        <div class="card gold">
+          <h4>Brand story (draft)</h4>
+          <p>Before a song reaches an audience, it is composed: notes chosen, weighed and rearranged until nothing is extra. Lenny Santos has spent his career doing that with a guitar, as a founding member of Aventura, the group that carried bachata from the Bronx to a global audience. LS PURO brings the same discipline to tobacco. Each blend is developed like a composition with <span class="tag t-mis">Master blender</span> at <span class="tag t-mis">Factory</span>, tested blind, and released only when it plays the same way box after box. The guitar pick on every band is the mark of authorship. The cigar has to earn the rest.</p>
+        </div>
+        <div class="card">
+          <h4>Elevator pitch (30 seconds)</h4>
+          <p>“LS PURO is a new luxury cigar house from Lenny Santos, founding guitarist of Aventura. We make cigars the way he makes music: composed, tested and consistent. The collection launches with three lines, Perfect Melody, Legend Blend and Don Marino, and a full set of cutters, lighters, ashtrays and travel cases. We're opening a small number of partner humidors first, with launch evenings that bring Lenny's audience into your lounge.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 02 PRODUCT ================= -->
+<section class="sec" id="product">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">02</span>
+      <div>
+        <p class="eyebrow">Product development &amp; cigar quality</p>
+        <h2>The cigar has to be better than the story</h2>
+        <p class="lede">One blend is now documented: Perfect Melody Sumatra. Factory, aging and the other lines' blends have not been supplied, and none is invented here. This section is the roadmap and the checklist the manufacturer must satisfy before LS PURO approves a commercial run.</p>
+      </div>
+    </header>
+
+    <div class="grid-2" style="align-items:start">
+      <div class="stack">
+        <h3>The collection as known today</h3>
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Line</th><th>Confirmed</th><th>Still needed</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Perfect Melody</strong></td><td>Band design exists; Perfect Melody Sumatra blend and 6 × 54 size documented <span class="tag t-ver">Verified</span></td><td>Factory, aging, box count, other vitolas <span class="tag t-mis">Missing</span></td></tr>
+              <tr><td><strong>Legend Blend</strong></td><td>Name on 2026 cover; “Legend” band designs exist <span class="tag t-ver">Verified</span></td><td>Blend, vitolas, origin, box <span class="tag t-mis">Missing</span></td></tr>
+              <tr><td><strong>Don Marino</strong></td><td>Name on 2026 cover <span class="tag t-ver">Verified</span></td><td>Band, blend, vitolas, origin <span class="tag t-mis">Missing</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="tbl-note">A trade note on the name: in Spanish a <em>puro</em> is simply a cigar, and in the trade a “puro” also describes a cigar whose wrapper, binder and filler all come from one country. LS PURO should only claim the second meaning (for example “a Dominican puro”) if the manufacturer's leaf records prove it. Perfect Melody Sumatra combines leaf from Ecuador, Nicaragua and the Dominican Republic, so it is a multi-origin blend and should not be described as a puro of any one country.</p>
+      </div>
+      <figure>
+        <div class="photo"><img src="img/bands-accessories.jpg" width="498" height="313" alt="LS PURO cigar bands in red, gold and black, beside a Puro Executive lighter, Executive cutter and a Puro display box holding Legend and Perfect Melody cigars"></div>
+        <figcaption>Band families, Executive lighter and cutter, and the Puro display box, from LS PURO imagery. Re-shoot with production samples before trade use, so photos match exactly what retailers receive.</figcaption>
+      </figure>
+    </div>
+
+    <div class="sub">
+      <h3>First documented blend: Perfect Melody Sumatra <span class="tag t-ver">LS PURO spec sheet</span></h3>
+      <div class="grid-2" style="align-items:start">
+        <figure>
+          <div class="photo"><img src="img/perfect-melody-sumatra.jpg" width="1224" height="1584" alt="Perfect Melody Sumatra spec sheet from The VIP Collection: cigar anatomy, the four leaves in the blend, a tasting compass, and the blend summary" loading="lazy"></div>
+          <figcaption>The VIP Collection spec sheet, dated December 10, 2026.</figcaption>
+        </figure>
+        <div class="stack">
+          <div class="tbl-wrap">
+            <table>
+              <thead><tr><th>Component</th><th>Leaf and origin</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Vitola</strong></td><td>6 × 54, a Toro-class size</td></tr>
+                <tr><td><strong>Wrapper (capa)</strong></td><td>Sumatra, grown in Ecuador from seed of Indonesian origin</td></tr>
+                <tr><td><strong>Binder (capote)</strong></td><td>Corojo Criollo, Estelí, Nicaragua</td></tr>
+                <tr><td><strong>Filler (tripa)</strong></td><td>Piloto Cubano, Dominican Republic; Ligero, Estelí, Nicaragua</td></tr>
+                <tr><td><strong>Expected notes</strong></td><td>Cedar, toasted nuts, baking spice, sweetness. The sheet states these are blend-based expectations, not confirmed tasting results.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout"><strong>What this sheet gets right:</strong> it names every leaf and its origin, explains the anatomy in plain terms, and labels flavor notes as expectations. That is the standard every LS PURO line should meet.</div>
+          <div class="callout risk"><strong>Still to confirm:</strong> the factory and country where it is rolled (this decides import duty), leaf and post-roll aging, box count, and blind-panel results. Before any tasting descriptor such as “sweetness” or “baking spice” goes on packaging, check it with counsel: in California, flavor words on packaging or labeling create a presumption that a product is flavored (section 09). <span class="tag t-law">Attorney</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Development roadmap with approval gates <span class="tag t-rec">Recommendation</span></h3>
+      <ol class="steps">
+        <li><strong>Manufacturer due diligence</strong><span>Visit the factory. Confirm capacity, current brands produced, export history, minimums, lead times, pricing, and who owns the blend recipe (LS PURO should, by contract). Ask three retailers who carry that factory's brands about consistency and on-time delivery.</span></li>
+        <li><strong>Blend brief for each line</strong><span>Strength target, flavor direction, price tier and vitolas, written as a one-page “composition brief”. Perfect Melody, Legend Blend and Don Marino should be clearly different experiences, not three bands on one blend.</span></li>
+        <li><strong>Prototype rounds</strong><span>Three to five blend candidates per line. Every round goes through the blind panel below and is scored against a benchmark cigar at the same price.</span></li>
+        <li><strong>Pre-production samples in final packaging</strong><span>Bands, cellophane decision, box, humidity control. Rest the cigars for the period the factory specifies, then re-test. Tobacco changes after rolling; approve what the customer will actually smoke.</span></li>
+        <li><strong>Golden sample and pilot run</strong><span>Seal and store a signed “golden sample” box of each SKU at LS PURO and at the factory. Run a pilot lot and test three separate lots for consistency.</span></li>
+        <li><strong>Commercial production with lot-level QA</strong><span>Every lot coded, sampled, smoke-tested and recorded. Keep a retained-sample library from every lot.</span></li>
+      </ol>
+    </div>
+
+    <div class="sub">
+      <h3>Specifications to obtain from the manufacturer <span class="tag t-mis">Confirm with manufacturer</span></h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Specification</th><th>What to obtain</th><th>Why it matters</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Vitola</strong></td><td>Name, length (inches), ring gauge (64ths of an inch), shape (parejo, box-press, figurado)</td><td>Retailers stock by size; state taxes and the federal “premium cigar” definition can depend on weight and size.</td></tr>
+            <tr><td><strong>Wrapper (capa)</strong></td><td>Seed variety, country, priming, fermentation and aging</td><td>Wrapper drives appearance, price and a large share of flavor; it is the most-asked question at the counter.</td></tr>
+            <tr><td><strong>Binder (capote) &amp; filler (tripa)</strong></td><td>Countries, varieties, long filler vs. mixed, proportion where disclosed</td><td>Determines strength and consistency; 100% long filler and a whole-leaf binder are part of how “premium” is defined in U.S. regulation.</td></tr>
+            <tr><td><strong>Aging</strong></td><td>Leaf age at rolling, post-roll rest period, documentation</td><td>Any aging claim on packaging must be provable.</td></tr>
+            <tr><td><strong>Construction</strong></td><td>Hand-made method (entubado, booking, accordion), cap type, rolling grade</td><td>Draw and burn quality; luxury buyers inspect the cap and seams.</td></tr>
+            <tr><td><strong>Weight per 1,000</strong></td><td>Average and tolerance</td><td>Used in federal tax classification and some state tax formulas.</td></tr>
+            <tr><td><strong>Ingredients</strong></td><td>Written statement: tobacco, water and vegetable gum only; no characterizing flavor</td><td>Regulatory definitions and state flavor bans turn on this.</td></tr>
+            <tr><td><strong>Packing moisture</strong></td><td>Relative humidity at packing; humidity control method in transit</td><td>Prevents split wrappers and plugged draws on arrival.</td></tr>
+            <tr><td><strong>Pest control</strong></td><td>Freezing or fumigation protocol and certificate per lot</td><td>Tobacco beetles can ruin a retailer's humidor; one infestation can end an account.</td></tr>
+            <tr><td><strong>Commercial terms</strong></td><td>Price per cigar (FOB), minimum order, deposit, lead time, monthly capacity, exclusivity</td><td>Feeds the pricing model in section 04 and the cash-flow plan in section 10.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Quality standards to write into the supply agreement</h3>
+      <div class="grid-3">
+        <div class="card"><h4>Construction</h4><p>Even fill with no soft spots or hard knots; clean triple or seamless cap; smooth wrapper with minimal veins; bands placed at one height; boxes color-sorted.</p></div>
+        <div class="card"><h4>Draw</h4><p>Every cigar machine-tested for draw resistance at the factory, with an agreed acceptable range. Tight or “plugged” cigars rejected before boxing.</p></div>
+        <div class="card"><h4>Combustion</h4><p>Even burn line, few touch-ups, firm ash, and stays lit through a short pause. Measured on a set number of cigars per lot.</p></div>
+        <div class="card"><h4>Storage</h4><p>Commonly kept around 65–70% relative humidity and 65–70°F; heat above the mid-70s raises beetle risk. Confirm the factory's own targets and print care guidance in every box. <span class="tag t-asm">Industry norm</span></p></div>
+        <div class="card"><h4>Batch testing</h4><p>Lot code on every box. Pull a fixed sample per 1,000 for weight, size and draw; smoke-test a smaller sample; keep retained samples from every lot.</p></div>
+        <div class="card"><h4>Independent evaluation</h4><p>Blind panel before launch (protocol below). After launch, ratings follow retail presence: Cigar Aficionado rates blind and buys most of the cigars it rates at retail. Publish scores only as received. <a href="#src-ca-method" class="small">source</a></p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Blind testing protocol <span class="tag t-rec">Recommendation</span></h3>
+      <div class="grid-2">
+        <ol class="steps">
+          <li><strong>Panel</strong><span>8–12 evaluators, all 21+: at least three tobacconists or lounge managers, three experienced smokers (10+ years), one or two industry judges, and the blender.</span></li>
+          <li><strong>Blind coding</strong><span>Bands removed, cigars coded A–D, with one benchmark cigar from an established brand at the same price.</span></li>
+          <li><strong>Conditions</strong><span>Cigars rested at least two weeks at a controlled humidity, same cut, same lighter type, water only, one cigar per sitting.</span></li>
+          <li><strong>Decision rule</strong><span>Release when the blend scores at or above the benchmark and construction faults stay under the agreed threshold. Repeat on three production lots.</span></li>
+        </ol>
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Score sheet</th><th class="r">Points</th></tr></thead>
+            <tbody>
+              <tr><td>Appearance &amp; construction</td><td class="r">10</td></tr>
+              <tr><td>Draw</td><td class="r">10</td></tr>
+              <tr><td>Burn &amp; combustion</td><td class="r">10</td></tr>
+              <tr><td>Flavor complexity</td><td class="r">25</td></tr>
+              <tr><td>Balance</td><td class="r">20</td></tr>
+              <tr><td>Finish</td><td class="r">10</td></tr>
+              <tr><td>Overall impression</td><td class="r">15</td></tr>
+            </tbody>
+            <tfoot><tr><td>Total, plus “would you buy it at $__?”</td><td class="r">100</td></tr></tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Documents required before approving the first commercial run</h3>
+      <div class="grid-2">
+        <ul class="stack" style="gap:.4rem">
+          <li>Signed manufacturing and supply agreement: price, minimums, lead times, exclusivity, blend confidentiality and ownership, quality specs, defect remedies, recall cooperation. <span class="tag t-law">Attorney</span></li>
+          <li>Final specification sheet for every SKU, matched to a sealed golden sample.</li>
+          <li>Leaf origin and aging declarations; ingredient statement.</li>
+          <li>Certificate of origin (needed for any trade-agreement duty treatment).</li>
+        </ul>
+        <ul class="stack" style="gap:.4rem">
+          <li>Factory licences and the factory's own regulatory status, in writing.</li>
+          <li>QA reports from the pilot lots; pest-control certificates.</li>
+          <li>Approved packaging proofs carrying all required statements, reviewed by counsel. <span class="tag t-law">Attorney</span></li>
+          <li>Product liability insurance certificates from the manufacturer and LS PURO.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 MARKET ================= -->
+<section class="sec alt" id="market">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">03</span>
+      <div>
+        <p class="eyebrow">Competitive market analysis</p>
+        <h2>Who already owns the humidor shelf</h2>
+        <p class="lede">The houses LS PURO will sit beside, what they charge, how they reach retailers, and the opening they leave. Facts carry sources; conclusions are marked as recommendations.</p>
+      </div>
+    </header>
+    <div class="grid-3">
+      <div class="card">
+        <h4>Volume <span class="tag t-ver">Industry-reported</span></h4>
+        <p><strong class="num">429.8 million</strong> premium handmade cigars were imported into the U.S. in 2025, flat on 2024 and the fifth straight year above 400 million. January–August 2026 was up 0.6%. <a href="#src-ca-imports" class="small">source</a></p>
+      </div>
+      <div class="card">
+        <h4>Origin shift <span class="tag t-ver">Industry-reported</span></h4>
+        <p>Nicaragua supplied about 60% (258.4M). The Dominican Republic shipped 93.7M, down 12%, while Honduras rose 11% to 74.5M. A Dominican-made LS PURO would come from a respected but shrinking share of the shelf. <a href="#src-ca-imports" class="small">source</a></p>
+      </div>
+      <div class="card">
+        <h4>Who smokes premium cigars <span class="tag t-ver">Verified</span></h4>
+        <p>About 1% of U.S. adults; mostly male, older and higher-income. In federal survey data, 9.2% of premium cigar smokers were Hispanic. That is a small base today and a clear audience LS PURO can grow. <a href="#src-nasem" class="small">source</a> · <a href="#src-path" class="small">source</a></p>
+      </div>
+    </div>
+    <p class="tbl-note">No credible dollar value for the premium-only U.S. market was found; published market-size figures cover all cigars, including machine-made, and are analyst estimates. <span class="tag t-mis">Unverified</span></p>
+
+    <div class="sub">
+      <h3>The established houses</h3>
+      <div class="tbl-wrap">
+        <table class="wide" style="min-width:980px">
+          <thead><tr><th>House</th><th>Made in · ownership</th><th>Route to retailers</th><th>Selected lines, per-cigar price</th><th>Lesson for LS PURO</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Arturo Fuente</strong></td><td>Dominican Republic (Tabacalera A. Fuente) · family-owned</td><td>Distributed by J.C. Newman since 1990</td><td class="num">Don Carlos $9.79–25.00<br>OpusX Lost City $38.25–44.00</td><td>Scarcity and allocation create pull; one OpusX edition reportedly went only to its society of loyal retailers.</td></tr>
+            <tr><td><strong>Davidoff</strong></td><td>Dominican Republic and Honduras · Oettinger Davidoff AG, family-owned</td><td>About 700 Appointed Merchants worldwide plus 65 flagship stores</td><td class="num">Signature $15.40–28.70<br>Millennium $19.70–36.30<br>Aniversario $14.40–46.80</td><td>The blueprint for selective luxury distribution: an appointed-retailer network with standards.</td></tr>
+            <tr><td><strong>Padrón</strong></td><td>Nicaragua · family-owned</td><td>Its own company, distributing only Padrón</td><td class="num">1964 Anniversary $14.05–38.95<br>Family Reserve $25.80–36.70</td><td>Started regional: mostly Miami for 30 years, and sold to 12 retailers at its first trade show. Ratings built the rest.</td></tr>
+            <tr><td><strong>My Father</strong></td><td>Nicaragua, Honduras, Florida · Garcia family</td><td>Distributes its own brands; also makes cigars for other brands</td><td class="num">Le Bijou 1922 $7.44–13.50<br>My Father $9.25–14.20</td><td>The kind of partner LS PURO needs: a factory with its own reputation that also makes cigars for brand owners.</td></tr>
+            <tr><td><strong>Oliva</strong></td><td>Nicaragua · J. Cortès / Vandermarliere family since 2016</td><td>National distribution</td><td class="num">Serie V $7.99–17.72<br>Serie V Melanio $10.49–22.01</td><td>Consistency at a fair price wins loyalty; LS PURO should not try to compete here on value.</td></tr>
+            <tr><td><strong>Ashton</strong></td><td>Dominican Republic, made by Tabacalera A. Fuente · Ashton Distributors, family-owned</td><td>“Authorized retailer” program; sold in 75+ countries</td><td class="num">VSG $13.49–20.00<br>ESG $25.19–31.00</td><td>The closest model for LS PURO: a brand owner, a world-class contract factory, and an authorized-retailer program.</td></tr>
+            <tr><td><strong>Rocky Patel</strong></td><td>Nicaragua, Honduras, Dominican Republic · founder-led</td><td>National, with branded lounges and consumer events</td><td class="num">Decade $11.64–16.95<br>White Label $18.84–23.20</td><td>A founder as the face, plus events, drives awareness. More than 100 lines shows the risk of sprawl.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note">Origin, ownership and distribution are from brand sites, Oettinger Davidoff and Cigar Aficionado company profiles. Prices are Holt's listed per-cigar prices across sizes, checked November 14, 2026; retailer prices often sit below MSRP, and Holt's is owned by the family behind Ashton. Whether each house uses an in-house sales force or independent reps is not published. <a href="#src-holts" class="small">sources</a></p>
+    </div>
+
+    <div class="sub">
+      <h3>Musicians and celebrities in cigars</h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Brand</th><th>Who · partner factory</th><th>What happened</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Fuente Fuente OpusX “Por Amor al Tío”</strong></td><td>Romeo Santos with Carlos Fuente Jr. (Sep 2026)</td><td>500 chests of 20, sold only by charity auction at the Fundación Los Santos gala. <span class="tag t-asm">Single source</span></td></tr>
+            <tr><td><strong>MLP Cigars</strong></td><td>Mozart La Para, Dominican artist (2025)</td><td>Dominican-made; specialty stores and online from July 2025.</td></tr>
+            <tr><td><strong>Notorious</strong></td><td>Conor McGregor · MJ Frias, Santiago, DR (2025)</td><td>An ongoing brand rather than a one-off; new blends shown at the 2026 trade show.</td></tr>
+            <tr><td><strong>Blackened M81</strong></td><td>James Hetfield of Metallica · Drew Estate (2022)</td><td>$9–10 range; unveiled on a livestream and sampled at Big Smoke events.</td></tr>
+            <tr><td><strong>Knuckle Sandwich</strong></td><td>Guy Fieri · Espinosa</td><td>Reported strong sales, credited to his unplanned shop visits, consumer events and trade-show presence.</td></tr>
+            <tr><td><strong>Escobar</strong></td><td>Nas, equity partner (2021)</td><td>$12–14.50 Nicaraguan cigars; expanded through retailers in 2026.</td></tr>
+            <tr><td><strong>Cohiba Comador</strong></td><td>Jay-Z · General Cigar (2013)</td><td>350 humidors of 21 cigars at $999; developed with the factory's blenders over about two years.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note">All entries are reported by trade or general media; see sources. <span class="tag t-asm">Reported</span></p>
+      <div class="grid-2">
+        <div class="callout"><strong>What the record shows.</strong> The documented successes paired a real factory partner with the celebrity's sustained, in-person presence in shops and at events. An industry editorial argues celebrity cigars have historically underperformed when the name was absent and the price was high. LS PURO's plan is built around the first pattern.</div>
+        <div class="callout risk"><strong>The Aventura precedent.</strong> If confirmed, a cigar release by Aventura's lead singer with the maker of OpusX means retailers and press may already link Aventura with cigars at the very top of the market. LS PURO should tell its own story clearly, make no reference to that release, and use no Aventura marks without written rights. <span class="tag t-law">Attorney</span></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Where LS PURO can win <span class="tag t-rec">Recommendation</span></h3>
+      <div class="grid-4">
+        <div class="card"><h4>Culture</h4><p>No established house speaks to the Latin music audience. The 2025–26 artist launches show the demand is real; LS PURO should be the one built to last.</p></div>
+        <div class="card"><h4>Ritual</h4><p>The incumbents sell cigars; LS PURO arrives with its own priced set of cutters, lighters, ashtrays and a travel case.</p></div>
+        <div class="card"><h4>Selectivity</h4><p>A small “partner humidor” network, modelled on Davidoff's appointed merchants and Ashton's authorized retailers, at a fraction of the scale.</p></div>
+        <div class="card"><h4>Proof</h4><p>At $20–30 LS PURO sits beside Davidoff Signature, Padrón 1926 and Ashton ESG. Blind-test against exactly those, and say so.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 PRICING ================= -->
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">04</span>
+      <div>
+        <p class="eyebrow">Luxury pricing &amp; profitability</p>
+        <h2>Price from the position, then prove the margin</h2>
+        <p class="lede">A luxury price has to signal seriousness and still leave the retailer a full margin. Below: the cost stack, three illustrative positions, a working model you can change, and the accessories margins already set by LS PURO's own price list.</p>
+      </div>
+    </header>
+
+    <div class="sub" style="margin-top:0">
+      <h3>How a cigar's price is built</h3>
+      <ol class="steps">
+        <li><strong>Factory price (FOB)</strong><span>What the manufacturer charges per finished cigar. <span class="tag t-mis">Missing</span></span></li>
+        <li><strong>Packaging</strong><span>Band, foot band, cellophane, box, seals, inserts, humidity control.</span></li>
+        <li><strong>Freight, insurance, customs broker and import duty</strong><span>Moving finished goods into a licensed U.S. warehouse. Cigars from the Dominican Republic or Nicaragua entered on or after July 24, 2026 carry an additional 12.5% duty, on top of any base duty if trade-agreement origin rules are not met. <span class="tag t-ver">Verified</span> <a href="#src-301" class="small">source</a></span></li>
+        <li><strong>Federal excise tax</strong><span>Large cigars: 52.75% of the sale price, capped at $402.60 per thousand ($0.4026 per cigar). At luxury prices the cap always applies. <span class="tag t-ver">Verified</span> <a href="#src-ttb-rates" class="small">source</a></span></li>
+        <li><strong>Landed cost</strong><span>Steps 1–4 together. Everything above this line is the brand's gross margin.</span></li>
+        <li><strong>Brand wholesale price</strong><span>What the retailer (or distributor) pays LS PURO.</span></li>
+        <li><strong>Retail margin and state tobacco tax</strong><span>Trade press reports premium cigar retail margins running from the mid-double digits up to keystone (about 50% of MSRP); the model below assumes 50%. State “other tobacco products” taxes are added by the licensed wholesaler or retailer and vary widely by state. <span class="tag t-asm">Assumption</span></span></li>
+      </ol>
+    </div>
+
+    <div class="sub">
+      <h3>Three positions, modelled <span class="tag t-est">Illustrative</span></h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Per cigar, direct to retailer</th><th class="r">Premium</th><th class="r">Ultra-premium</th><th class="r">Exclusive luxury</th></tr></thead>
+          <tbody>
+            <tr><td>Suggested retail (MSRP)</td><td class="r">$16.00</td><td class="r">$26.00</td><td class="r">$55.00</td></tr>
+            <tr><td>Box count · box MSRP</td><td class="r">20 · $320</td><td class="r">10 · $260</td><td class="r">10 · $550</td></tr>
+            <tr><td>Factory price <span class="tag t-asm">Assumption</span></td><td class="r">$2.75</td><td class="r">$4.75</td><td class="r">$9.50</td></tr>
+            <tr><td>Packaging per cigar <span class="tag t-asm">Assumption</span></td><td class="r">$0.90</td><td class="r">$1.75</td><td class="r">$5.00</td></tr>
+            <tr><td>Freight, insurance, broker <span class="tag t-asm">Assumption</span></td><td class="r">$0.35</td><td class="r">$0.40</td><td class="r">$0.60</td></tr>
+            <tr><td>Additional import duty, 12.5% of factory + packaging value</td><td class="r">$0.46</td><td class="r">$0.81</td><td class="r">$1.81</td></tr>
+            <tr><td>Federal excise tax (cap)</td><td class="r">$0.40</td><td class="r">$0.40</td><td class="r">$0.40</td></tr>
+            <tr><td><strong>Landed cost</strong></td><td class="r">$4.86</td><td class="r">$8.12</td><td class="r">$17.32</td></tr>
+            <tr><td>Retailer buys at (50% margin)</td><td class="r">$8.00</td><td class="r">$13.00</td><td class="r">$27.50</td></tr>
+            <tr><td><strong>Brand gross profit</strong></td><td class="r">$3.14 · 39.3%</td><td class="r">$4.88 · 37.6%</td><td class="r">$10.18 · 37.0%</td></tr>
+            <tr><td>Sales commission (10%) <span class="tag t-asm">Assumption</span></td><td class="r">$0.80</td><td class="r">$1.30</td><td class="r">$2.75</td></tr>
+            <tr><td><strong>Contribution per cigar</strong></td><td class="r">$2.34</td><td class="r">$3.58</td><td class="r">$7.43</td></tr>
+            <tr><td>If sold through a distributor (25% margin, no commission)</td><td class="r">$1.14</td><td class="r">$1.63</td><td class="r">$3.31</td></tr>
+            <tr><td>Meets California's $12 wholesale “premium” threshold</td><td class="r">No</td><td class="r">Yes</td><td class="r">Yes</td></tr>
+            <tr><td>Cigars to recover $185,000 of launch costs (direct)</td><td class="r">79,021</td><td class="r">51,606</td><td class="r">24,883</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note">Every cost line is a placeholder to replace with the manufacturer's written quote. The 10% commission is in line with job listings for independent cigar reps (10–12% of collected sales), which is a thin source. The $185,000 is the low end of the professional launch budget in section 10, excluding inventory. The 12.5% duty assumes Dominican or Nicaraguan production with boxes packed at the factory; confirm the dutiable value with a customs broker. State tobacco taxes are not included.</p>
+      <div class="callout"><strong>Recommendation:</strong> price the core lines in the ultra-premium band, and reserve exclusive-luxury pricing for a numbered annual release once the core is selling through. The accessories already sit at luxury price points ($50–$220), the premium band is the most crowded part of the humidor, and a brand built on a famous name has to clear the “novelty” bar with a price that signals seriousness. There is also a regulatory reason: California's flavor law exempts “premium cigars” only at a wholesale price of $12 or more, so ultra-premium pricing keeps the simplest path open in the largest state market (section 09). <span class="tag t-rec">Recommendation</span></div>
+    </div>
+
+    <div class="sub">
+      <h3>Working model: change any input <span class="tag t-est">Illustrative</span></h3>
+      <div class="calc" id="calc">
+        <div class="calc-top">
+          <div class="seg" role="group" aria-label="Load a scenario">
+            <button type="button" data-preset="premium" aria-pressed="true">Premium</button>
+            <button type="button" data-preset="ultra" aria-pressed="false">Ultra-premium</button>
+            <button type="button" data-preset="exclusive" aria-pressed="false">Exclusive luxury</button>
+          </div>
+          <span class="small mute">Defaults are placeholders. Enter real quotes.</span>
+        </div>
+        <div class="calc-body">
+          <div class="calc-in">
+            <div class="field"><label for="c-msrp">Suggested retail per cigar ($)</label><input id="c-msrp" type="number" step="0.5" min="0" value="16"></div>
+            <div class="field"><label for="c-box">Cigars per box</label><input id="c-box" type="number" step="1" min="1" value="20"></div>
+            <div class="field"><label for="c-retail">Retailer margin (% of MSRP)</label><input id="c-retail" type="number" step="1" min="0" max="90" value="50"></div>
+            <div class="field"><label for="c-channel">Route to market</label>
+              <select id="c-channel"><option value="direct">Direct to retailers</option><option value="distributor">Through a distributor</option></select></div>
+            <div class="field"><label for="c-dist">Distributor margin (% of its price)</label><input id="c-dist" type="number" step="1" min="0" max="80" value="25"></div>
+            <div class="field"><label for="c-comm">Sales commission (% of brand price)</label><input id="c-comm" type="number" step="1" min="0" max="50" value="10"></div>
+            <div class="field"><label for="c-factory">Factory price per cigar ($)</label><input id="c-factory" type="number" step="0.05" min="0" value="2.75"></div>
+            <div class="field"><label for="c-pack">Packaging per cigar ($)</label><input id="c-pack" type="number" step="0.05" min="0" value="0.90"></div>
+            <div class="field"><label for="c-freight">Freight, insurance, broker ($)</label><input id="c-freight" type="number" step="0.05" min="0" value="0.35"></div>
+            <div class="field"><label for="c-duty">Import duty (% of factory + packaging)</label><input id="c-duty" type="number" step="0.5" min="0" max="100" value="12.5"></div>
+            <div class="field"><label for="c-fixed">Launch costs to recover ($)</label><input id="c-fixed" type="number" step="5000" min="0" value="185000"></div>
+          </div>
+          <div class="calc-out" aria-live="polite">
+            <div class="out-grid">
+              <div class="out"><div class="l">Retailer buys at</div><div class="v" id="o-retail">$8.00</div></div>
+              <div class="out"><div class="l">LS PURO sells at</div><div class="v" id="o-brand">$8.00</div></div>
+              <div class="out"><div class="l">Federal excise tax</div><div class="v" id="o-fet">$0.40</div></div>
+              <div class="out"><div class="l">Landed cost</div><div class="v" id="o-landed">$4.86</div></div>
+              <div class="out"><div class="l">Gross profit</div><div class="v" id="o-gp">$3.14 <small>39.3%</small></div></div>
+              <div class="out key" id="o-contrib-box"><div class="l">Contribution / cigar</div><div class="v" id="o-contrib">$2.34 <small>29.3%</small></div></div>
+              <div class="out"><div class="l">Contribution / box</div><div class="v" id="o-box">$46.82</div></div>
+              <div class="out key"><div class="l">Break-even</div><div class="v" id="o-be">79,021 <small>cigars · 3,952 boxes</small></div></div>
+            </div>
+            <div class="waterfall">
+              <div class="small mute">Where each dollar of the shelf price goes</div>
+              <div class="wf-bar" id="wf" role="img" aria-label="Breakdown of the suggested retail price">
+                <span style="flex-basis:50%;background:var(--assume)"></span><span style="flex-basis:0%;background:#7f8aa0"></span><span style="flex-basis:17.19%;background:var(--croc)"></span><span style="flex-basis:5.62%;background:var(--walnut)"></span><span style="flex-basis:2.19%;background:#5d6b62"></span><span style="flex-basis:2.85%;background:#b0603e"></span><span style="flex-basis:2.52%;background:var(--risk)"></span><span style="flex-basis:5%;background:var(--gold-lo)"></span><span style="flex-basis:14.63%;background:var(--gold-hi)"></span>
+              </div>
+              <div class="wf-key">
+                <span><i style="background:var(--assume)"></i>Retailer</span>
+                <span><i style="background:#7f8aa0"></i>Distributor</span>
+                <span><i style="background:var(--croc)"></i>Factory</span>
+                <span><i style="background:var(--walnut)"></i>Packaging</span>
+                <span><i style="background:#5d6b62"></i>Freight</span>
+                <span><i style="background:#b0603e"></i>Import duty</span>
+                <span><i style="background:var(--risk)"></i>Excise tax</span>
+                <span><i style="background:var(--gold-lo)"></i>Commission</span>
+                <span><i style="background:var(--gold-hi)"></i>LS PURO contribution</span>
+              </div>
+            </div>
+            <p class="small mute">Excise tax is calculated as 52.75% of LS PURO's sale price (the importer's U.S. sale price), capped at $0.4026 per cigar. Import duty defaults to the 12.5% additional duty on Dominican and Nicaraguan cigars; set it to 0 for domestic production. State tobacco taxes, card fees, samples and returns are not included.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Accessories: margins already set by the LS PURO price list <span class="tag t-ver">Verified</span></h3>
+      <div class="scenes">
+        <figure><div class="photo"><img src="img/scene-cutters.jpg" width="1041" height="771" alt="Executive, Batman and Ovalis cigar cutters on a walnut table in a lounge" loading="lazy"></div><figcaption>Cutters: Executive, The Batman, The Ovalis</figcaption></figure>
+        <figure><div class="photo"><img src="img/scene-lighters.jpg" width="1232" height="769" alt="Executive torch lighter and three Nautilus torch lighters with blue flames" loading="lazy"></div><figcaption>Lighters: Executive and the Nautilus in three finishes</figcaption></figure>
+        <figure><div class="photo"><img src="img/scene-travel-ash.jpg" width="936" height="747" alt="Brown crocodile-pattern travel case with green trim, and three cigar ashtrays" loading="lazy"></div><figcaption>Travel case and the Ash Collection</figcaption></figure>
+      </div>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>#</th><th>Item</th><th>Materials (from the sell sheet)</th><th class="r">MSRP</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1</td><td>Executive Cutter</td><td>Gold-dip steel, PVD coating; straight cut, V-cut and punch</td><td class="r">$220.00</td></tr>
+            <tr><td class="num">2</td><td>The Batman Cutter</td><td>Brazilian walnut guillotine</td><td class="r">$85.00</td></tr>
+            <tr><td class="num">3</td><td>The Ovalis Cutter</td><td>Brazilian walnut and stainless steel guillotine</td><td class="r">$90.00</td></tr>
+            <tr><td class="num">4</td><td>Executive Lighter</td><td>Double-flame torch; gold-dip stainless, PVD, black &amp; gold</td><td class="r">$145.00</td></tr>
+            <tr><td class="num">5</td><td>Nautilus, Space Grey &amp; Gold</td><td>Triple-jet torch with punch; lacquer, zinc alloy</td><td class="r">$120.00</td></tr>
+            <tr><td class="num">6</td><td>Nautilus, Black Chrome</td><td>Triple-jet torch with punch; lacquer, zinc alloy</td><td class="r">$110.00</td></tr>
+            <tr><td class="num">7</td><td>Nautilus, Red &amp; Gold</td><td>Triple-jet torch with punch; lacquer, zinc alloy</td><td class="r">$120.00</td></tr>
+            <tr><td class="num">8</td><td>Travel Case</td><td>3-cigar; cedar, green leather, brown crocodile pattern</td><td class="r">$125.00</td></tr>
+            <tr><td class="num">9</td><td>Ashtray, 4-cigar, Gold &amp; Black</td><td>LS-pattern ceramic</td><td class="r">$50.00</td></tr>
+            <tr><td class="num">10</td><td>Ashtray, 3-cigar, Glass &amp; Bronze</td><td>Glass, bronze tone</td><td class="r">$75.00</td></tr>
+            <tr><td class="num">11</td><td>Ashtray, 4-cigar, Tobacco Leaf Green</td><td>Ceramic</td><td class="r">$50.00</td></tr>
+            <tr><td class="num">12</td><td>Unnamed item <span class="tag t-mis">Missing</span></td><td>Not described on the sell sheet</td><td class="r">$35.00</td></tr>
+          </tbody>
+          <tfoot><tr><td></td><td colspan="2">Opening accessory kit: one each of items 1–11</td><td class="r">$1,190.00</td></tr></tfoot>
+        </table>
+      </div>
+      <p class="tbl-note">Accessories are not tobacco products, so they can sell online and in gift and luxury stores where cigars cannot. Torch lighters are generally shipped without butane because fuel is restricted as a hazardous material; confirm each carrier's rules. Accessory unit costs were not supplied, so LS PURO's own margin on them is unknown. Trade prices are shared with approved accounts. <span class="tag t-mis">Missing</span></p>
+    </div>
+
+    <div class="sub">
+      <h3>Direct-to-consumer economics</h3>
+      <div class="grid-2">
+        <div class="card"><h4>The appeal</h4><p>Selling direct captures the retail margin, roughly double the brand's wholesale revenue per cigar, and builds a customer list LS PURO owns.</p></div>
+        <div class="card"><h4>The catch</h4><p>Online cigar sales bring state tax and licensing duties, adult-signature delivery, shipping restrictions in some states, payment-processor limits on tobacco, and conflict with the retailers you are asking for shelf space. <span class="tag t-law">Attorney</span></p></div>
+      </div>
+      <p class="callout"><strong>Recommendation:</strong> sell accessories direct from day one. For cigars, launch with a “find a partner humidor” locator and add direct sales state by state only after counsel signs off, always at full MSRP so partners are never undercut. <span class="tag t-rec">Recommendation</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 RETAIL ================= -->
+<section class="sec alt" id="retail">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">05</span>
+      <div>
+        <p class="eyebrow">Retailer &amp; distributor acquisition</p>
+        <h2>Earning the shelf, one humidor at a time</h2>
+        <p class="lede">Premium cigars are sold by people: the owner who decides what goes in the walk-in, and the staff who hand a box to a customer. The first 20 accounts matter more than the next 200, so the plan is selective, personal and measured.</p>
+      </div>
+    </header>
+
+    <div class="sub" style="margin-top:0">
+      <h3>Step by step, from target list to reorder</h3>
+      <ol class="steps">
+        <li><strong>Define the ideal account</strong><div>Walk-in humidor with ultra-premium brands already on the shelf, a lounge or event space, an owner who hosts events, and a customer base that includes established Latino professionals. Score every prospect on these five points.</div></li>
+        <li><strong>Build the target list</strong><div>Start in 2–3 home markets with both bachata audiences and strong cigar lounges, such as South Florida, Texas and the New York–New Jersey area. State tax shapes the shelf price: Florida excludes cigars from its other-tobacco tax, Texas taxes cigars by the thousand, and New York taxes them at 75% of wholesale (section 09). Sources: Premium Cigar Association member listings, the store locators of comparable luxury brands, cigar media retailer guides, and local scouting visits. Tier the list: A (15–25 flagship lounges), B (premium shops), C (later).</div></li>
+        <li><strong>Warm the approach</strong><div>Visit as a customer first. Buy something, learn the staff's names, see what sells. Then send the introduction letter (below) addressed to the owner by name.</div></li>
+        <li><strong>Secure the meeting</strong><div>Call five business days after the letter. Ask for 30 minutes in the shop, at a quiet hour, with the humidor manager present.</div></li>
+        <li><strong>Present like a luxury house</strong><div>A walnut presentation box with the three lines, one accessory set, the printed catalog and a one-page price sheet. Follow the 12-part presentation in section 11. Never open with the celebrity; open with the cigar.</div></li>
+        <li><strong>Prove the quality</strong><div>Offer a blind evaluation: coded LS PURO cigars plus a benchmark the owner chooses from their own humidor. Share the factory credentials and the pre-launch panel scores. Where trade samples are allowed (see section 09), leave a coded kit for staff.</div></li>
+        <li><strong>Make a clear opening offer</strong><div>The Launch Partner package below: small enough to say yes to, complete enough to merchandise properly.</div></li>
+        <li><strong>Negotiate on support, not price</strong><div>Hold MSRP and wholesale. Trade instead on event dates, display, staff education, limited-release allocation and a slow-mover exchange.</div></li>
+        <li><strong>Engineer the reorder</strong><div>Train staff within 7 days of delivery, host the launch evening within 30, call at day 30, review sell-through at day 60 with a suggested reorder, and run a business review at day 90.</div></li>
+        <li><strong>Keep the relationship</strong><div>Allocate limited releases by sell-through and loyalty, not by order size. Visit A accounts monthly. Feature partner stores on the LS PURO locator.</div></li>
+      </ol>
+    </div>
+
+    <div class="sub">
+      <h3>Why a retailer should give LS PURO shelf space</h3>
+      <div class="grid-3">
+        <div class="card"><h4>New customers through the door</h4><p>A name with a global music audience brings adults into the lounge who may never have visited, especially for a hosted evening.</p></div>
+        <div class="card"><h4>Margin on every ticket</h4><p>A full retail margin on cigars, and 55–60% on accessories at suggested retail, which lifts the average sale. <span class="tag t-ver">Verified</span> for accessories</p></div>
+        <div class="card"><h4>Protected distribution</h4><p>Limited partner accounts per market, no online discounting, and MSRP held everywhere. <span class="tag t-rec">Policy to adopt</span></p></div>
+        <div class="card"><h4>Proof before purchase</h4><p>Blind evaluation against the retailer's own benchmark, factory credentials and panel scores shared up front.</p></div>
+        <div class="card"><h4>Real support</h4><p>Staff education, display, launch evening, fast reorders, and a named account manager.</p></div>
+        <div class="card"><h4>Low risk to try</h4><p>A small opening order and a slow-mover exchange after 120 days, so an unsold box never sits as dead stock.</p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>The Launch Partner package <span class="tag t-rec">Recommendation</span></h3>
+      <div class="grid-2">
+        <div class="card gold">
+          <h4>Opening order</h4>
+          <ul>
+            <li>2 boxes of each core cigar SKU at launch (6–8 boxes in total, depending on final vitolas). Factory-direct brands reportedly open accounts at about 10–25 boxes; a smaller first order makes the yes easier for an unproven brand. <span class="tag t-asm">Assumption</span></li>
+            <li>Accessory opening kit: one each of items 1–11, <strong>$1,190 retail value</strong>. <span class="tag t-ver">Verified</span></li>
+            <li>Counter display, shelf talkers, and band-and-leaf education cards.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>What the partner receives</h4>
+          <ul>
+            <li>A hosted LS PURO evening within 30 days of delivery, ID-checked and 21+. For a limited number of flagship accounts, an appearance by Lenny Santos, subject to his schedule and contract.</li>
+            <li>Staff education session; priority allocation of limited releases.</li>
+            <li>Slow-mover exchange after 120 days on unopened boxes.</li>
+            <li>Terms: first order prepaid, then net 30 for approved accounts. <span class="tag t-asm">Assumption</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Retailer introduction letter</h3>
+      <div class="paper">
+        <div class="paper-head"><img src="img/logo-pick.png" alt="LS guitar-pick mark" width="412" height="480"><span class="who">LS Puro</span><span class="what">Template · send after the blind-panel results exist</span></div>
+        <div class="letter">
+          <p><span class="ph">[Date]</span><br><span class="ph">[Owner name]</span>, <span class="ph">[Shop name]</span><br><span class="ph">[Street, City, State]</span></p>
+          <p>Dear <span class="ph">[Name]</span>,</p>
+          <p>LS PURO is a new luxury cigar house from Lenny Santos, founding member and guitarist of Aventura. We are opening a small number of partner humidors for our 2026 collection, and <span class="ph">[Shop name]</span> is on that list because of <span class="ph">[a specific reason: your walk-in, your lounge evenings, the brands you carry]</span>.</p>
+          <p>What we are bringing:</p>
+          <ul>
+            <li>Three cigar lines, <strong>Perfect Melody, Legend Blend and Don Marino</strong>, made by <span class="ph">[factory]</span> in <span class="ph">[country]</span> and blind-tested against cigars at the same price.</li>
+            <li>A complete accessory collection (cutters, torch lighters, ashtrays and a travel case) with retailer margins of 55–60% at our suggested retail prices.</li>
+            <li>Launch support for partner accounts: staff education, display, and a hosted LS PURO evening.</li>
+          </ul>
+          <p>I would welcome 30 minutes in your shop so you and your team can judge the cigars blind, review the numbers, and decide whether LS PURO belongs in your humidor. I'll call on <span class="ph">[day]</span> to find a time that suits you.</p>
+          <p>With respect,<br><span class="ph">[Name]</span>, <span class="ph">[Title]</span>, LS PURO LLC<br><span class="ph">[Phone]</span> · <span class="ph">[Email]</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Pitches</h3>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Retailer pitch (90 seconds)</h4>
+          <p>“Before I tell you who's behind it, smoke it blind next to <em>[their benchmark]</em>. That's the standard we built to. LS PURO is made by <em>[factory]</em>, with <em>[master blender]</em>; three lines, each composed to a different strength and character. The founder is Lenny Santos from Aventura, and that matters to you for one reason: he brings people through your door. We're keeping partners few in each market, we never discount online, and the accessories alone earn you 55 to 60 percent. Start with two boxes per line and the accessory kit, and we'll host an evening here within 30 days.”</p>
+        </div>
+        <div class="card">
+          <h4>Distributor pitch</h4>
+          <p>“We're bringing you a brand with consumer pull that already exists, a ready accessory line that adds ticket size for your accounts, and a launch plan that has already proven sell-through in <em>[home markets]</em>. Here are the reorder rates from our first partner humidors. We're looking for one distribution partner in <em>[territory]</em> with strong lounge relationships and the licences to handle state tobacco taxes. We'll fund events and staff education; you bring coverage and logistics.”</p>
+          <p class="small mute">Approach distributors only after 60–90 days of partner-store data. A distributor's first question is “what's the sell-through?”</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Wholesale price sheet template</h3>
+      <div class="paper">
+        <div class="paper-head"><img src="img/logo-pick.png" alt="LS guitar-pick mark" width="412" height="480"><span class="who">LS Puro</span><span class="what">Trade price list · Template<br>Valid from <span class="ph" style="background:rgba(164,68,31,.1);color:#8a3a1a">[date]</span></span></div>
+        <div class="tbl-wrap">
+          <table class="wide">
+            <thead><tr><th>SKU</th><th>Item</th><th>Size / count</th><th>UPC</th><th class="r">Wholesale</th><th class="r">MSRP</th><th class="r">Min. order</th></tr></thead>
+            <tbody>
+              <tr><td>PM-01</td><td>Perfect Melody, <em>vitola</em></td><td><span class="tag t-mis">L × RG / box</span></td><td><span class="tag t-mis">UPC</span></td><td class="r">TBD</td><td class="r">TBD</td><td class="r">1 box</td></tr>
+              <tr><td>LB-01</td><td>Legend Blend, <em>vitola</em></td><td><span class="tag t-mis">L × RG / box</span></td><td><span class="tag t-mis">UPC</span></td><td class="r">TBD</td><td class="r">TBD</td><td class="r">1 box</td></tr>
+              <tr><td>DM-01</td><td>Don Marino, <em>vitola</em></td><td><span class="tag t-mis">L × RG / box</span></td><td><span class="tag t-mis">UPC</span></td><td class="r">TBD</td><td class="r">TBD</td><td class="r">1 box</td></tr>
+              <tr><td>AC-01</td><td>Executive Cutter</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$220.00</td><td class="r">1</td></tr>
+              <tr><td>AC-02</td><td>The Batman Cutter</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$85.00</td><td class="r">2</td></tr>
+              <tr><td>AC-03</td><td>The Ovalis Cutter</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$90.00</td><td class="r">2</td></tr>
+              <tr><td>AC-04</td><td>Executive Lighter</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$145.00</td><td class="r">1</td></tr>
+              <tr><td>AC-05/06/07</td><td>Nautilus Lighter (Space Grey &amp; Gold / Black Chrome / Red &amp; Gold)</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$120 / $110 / $120</td><td class="r">1 per finish</td></tr>
+              <tr><td>AC-08</td><td>Travel Case</td><td>3-cigar</td><td>—</td><td class="r">Approved accounts</td><td class="r">$125.00</td><td class="r">1</td></tr>
+              <tr><td>AC-09/10/11</td><td>Ashtrays (Gold &amp; Black / Glass &amp; Bronze / Tobacco Leaf Green)</td><td>each</td><td>—</td><td class="r">Approved accounts</td><td class="r">$50 / $75 / $50</td><td class="r">2</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="tbl-note">SKU codes and minimums are suggested. Prices exclude state tobacco taxes, which are paid by the licensed party in each state. Terms: first order prepaid; net 30 thereafter for approved accounts. Sold only to licensed retailers; buyer confirms all required state and local tobacco licences.</p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="grid-2">
+        <div class="stack">
+          <h3>Wholesale catalog outline</h3>
+          <ol class="steps">
+            <li><strong>Cover</strong><span>2026 Collection; “Composed. Always.”</span></li>
+            <li><strong>The house</strong><span>Mission, story, the guitar-pick signature.</span></li>
+            <li><strong>The composer and the craftsmen</strong><span>Lenny Santos, the master blender, the factory.</span></li>
+            <li><strong>One spread per line</strong><span>Blend, vitolas, tasting notes, box photo, codes and prices.</span></li>
+            <li><strong>Accessories</strong><span>Each item with materials, photos, MSRP and wholesale.</span></li>
+            <li><strong>Merchandising &amp; events</strong><span>Display, staff education, the partner evening.</span></li>
+            <li><strong>Terms &amp; compliance</strong><span>Ordering, minimums, licences, age policy, contacts.</span></li>
+          </ol>
+        </div>
+        <div class="stack">
+          <h3>New-account onboarding</h3>
+          <ol class="steps">
+            <li><strong>Qualify</strong><span>Score against the ideal-account profile.</span></li>
+            <li><strong>Verify licences</strong><span>State tobacco retail licence, resale certificate, any local permits. Keep copies on file and track expiry dates.</span></li>
+            <li><strong>Set up the account</strong><span>Credit application, W-9, ship-to address, state tax status.</span></li>
+            <li><strong>Ship with care</strong><span>Humidity packs, insulated in hot months; receiving checklist for count and condition.</span></li>
+            <li><strong>Educate</strong><span>Staff session within 7 days; leave tasting notes and a pronunciation card.</span></li>
+            <li><strong>Launch</strong><span>Display photo confirmed; partner evening within 30 days.</span></li>
+            <li><strong>Review</strong><span>Day-30 call, day-60 reorder review, day-90 business review.</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Retailer sample evaluation protocol</h3>
+      <div class="callout risk">Trade samples go only to licensed retail accounts and decision-makers aged 21+, and only where federal, state and local rules allow free or discounted samples. Confirm the rules for each state before shipping any sample. <span class="tag t-law">Attorney</span></div>
+      <ol class="steps">
+        <li><strong>Prepare a coded kit</strong><span>One cigar of each line, unbanded and coded, with a sealed key, an evaluation card and humidity control.</span></li>
+        <li><strong>Let them choose the benchmark</strong><span>The owner adds a cigar they already sell at a similar price. Confidence in a blind test is the strongest signal a new brand can send.</span></li>
+        <li><strong>Evaluate together</strong><span>Use the 100-point card from section 02, abbreviated for the counter.</span></li>
+        <li><strong>Reveal and record</strong><span>Open the key, record scores in the CRM, and follow up within 7 days with the Launch Partner offer.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 06 LAUNCH ================= -->
+<section class="sec" id="launch">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">06</span>
+      <div>
+        <p class="eyebrow">Marketing &amp; brand launch</p>
+        <h2>Ninety days, after the gates are passed</h2>
+        <p class="lede">The 90-day clock should start only when the product, permits and inventory are real. Launching marketing ahead of product is the most common way a new cigar brand burns credibility with retailers.</p>
+      </div>
+    </header>
+
+    <div class="card gold" style="margin-bottom:8px">
+      <h4>Before day 1: launch gates <span class="tag t-mis">All required</span></h4>
+      <div class="grid-3" style="gap:6px 26px">
+        <ul><li>Blend approved; golden samples sealed</li><li>Supply agreement signed</li><li>First production landed in humidified storage</li></ul>
+        <ul><li>Federal permits and state licences in place for each role LS PURO plays</li><li>Packaging statements cleared by counsel</li></ul>
+        <ul><li>Name-and-likeness licence signed</li><li>Trademark filings made</li><li>Age-gated website ready</li></ul>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="phase-tag"><span class="days">Days 1–30</span><span class="name">Phase 1 · Pre-launch</span></div>
+      <div class="cols">
+        <div><h4>Brand &amp; content</h4><ul><li>Studio photography of production boxes, bands and accessories; lifestyle images in a real lounge, adults only.</li><li>Two films: “The Composition” (blender and factory) and “The Ritual” (cut, light, first draw).</li><li>Brand story in English and Spanish.</li></ul></div>
+        <div><h4>Trade &amp; PR</h4><ul><li>Letters and visits to the 15–25 A-tier targets.</li><li>Blind evaluations in shops; sign Launch Partners.</li><li>Brief cigar and luxury trade press under embargo; offer the blender and Lenny for interviews.</li><li>Introduce LS PURO to the trade association and its regional retailer groups.</li></ul></div>
+        <div><h4>Digital</h4><ul><li>Launch the age-gated site with story, collection and partner locator.</li><li>Open a 21+ waitlist with date-of-birth confirmation.</li><li>Prepare a trade portal for licensed accounts.</li></ul></div>
+      </div>
+    </div>
+    <div class="phase">
+      <div class="phase-tag"><span class="days">Days 31–60</span><span class="name">Phase 2 · Official launch</span></div>
+      <div class="cols">
+        <div><h4>Launch event</h4><ul><li>Flagship evening at the strongest partner lounge: invitation only, ID-checked at the door, Lenny present, the blender on video or in person.</li><li>Trade guests and press invited; no public ticket sales advertised to general audiences.</li></ul></div>
+        <div><h4>Partners</h4><ul><li>Deliver opening orders; staff education within 7 days.</li><li>A partner evening at each account within 30 days of delivery.</li><li>Locator goes live with every partner listed.</li></ul></div>
+        <div><h4>PR &amp; education</h4><ul><li>Release the story to cigar, luxury and Latin business media.</li><li>Send release information to cigar media. Ratings follow retail presence, because the leading magazine buys most of the cigars it rates in stores.</li><li>Product education cards and a short staff video.</li></ul></div>
+      </div>
+    </div>
+    <div class="phase">
+      <div class="phase-tag"><span class="days">Days 61–90</span><span class="name">Phase 3 · Post-launch</span></div>
+      <div class="cols">
+        <div><h4>Relationships &amp; inventory</h4><ul><li>Day-30 and day-60 calls with sell-through counts per SKU.</li><li>Suggested reorders, with stock on hand to ship within a week.</li><li>Weekly inventory report against the reorder point.</li></ul></div>
+        <div><h4>Reputation</h4><ul><li>Monitor reviews and lounge feedback; respond to any construction complaint within 48 hours and trace it to a lot.</li><li>Collect structured feedback from staff and customers.</li></ul></div>
+        <div><h4>Expansion</h4><ul><li>Add B-tier accounts in home markets.</li><li>Use sell-through data to approach one distributor.</li><li>Decide on a trade-show debut and the first limited release. The PCA show is March 5–8, 2027 in Las Vegas; it is members-only and exhibitors must be PCA associate members. <a href="#src-pca" class="small">source</a></li></ul></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Compliance guardrails for every marketing activity</h3>
+      <div class="grid-2">
+        <ul class="stack" style="gap:.4rem">
+          <li><strong>21+ everywhere:</strong> age gate on the site, date-of-birth on email sign-up, ID checks at every event.</li>
+          <li><strong>No paid social or search ads for cigars</strong> on platforms whose policies prohibit tobacco promotion.</li>
+          <li><strong>No paid influencer promotion of the cigars</strong>, and no content designed to appeal to young people (cartoons, youth slang, music-video-style edits).</li>
+        </ul>
+        <ul class="stack" style="gap:.4rem">
+          <li><strong>Lenny's personal channels:</strong> no product or sales posts; route interest to the 21+ brand channels. <span class="tag t-law">Attorney</span></li>
+          <li><strong>Sampling and giveaways</strong> only where state and local law allows, in licensed adult venues. <span class="tag t-law">Attorney</span></li>
+          <li><strong>No health or reduced-risk claims</strong>; review descriptors such as “mild”, “natural” or “additive-free” with counsel before use.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 07 EXPERIENCE ================= -->
+<section class="sec alt" id="experience">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">07</span>
+      <div>
+        <p class="eyebrow">Luxury brand experience</p>
+        <h2>One house, from the band to the ashtray</h2>
+        <p class="lede">The existing materials already share a language: humidor green, PVD gold, walnut, crocodile leather and the black LS mark. The job now is to make every touchpoint speak it consistently.</p>
+      </div>
+    </header>
+
+    <div class="grid-2" style="align-items:start">
+      <div class="stack">
+        <h3>The official marks <span class="tag t-ver">Verified</span></h3>
+        <div class="plate">
+          <img src="img/logo-pick.png" width="412" height="480" alt="Official LS guitar-pick logo">
+          <img src="img/logo-wordmark.png" width="739" height="520" alt="Official LS LENNY SANTOS wordmark">
+        </div>
+        <p class="small mute">Shown as supplied, with only the white background removed. The gold <em>Puro™</em> script appears on the 2026 cover. None of the marks should be redrawn, recolored or re-set without the owner's approval.</p>
+      </div>
+      <figure>
+        <div class="photo"><img src="img/cover-2026.jpg" width="2000" height="1415" alt="LS PURO 2026 Collection cover: Lenny Santos with guitar, gold Puro mark, “Composed. Always.” and the lines Perfect Melody, Legend Blend and Don Marino" loading="lazy"></div>
+        <figcaption>The 2026 Collection cover: the reference for tone, type and color.</figcaption>
+      </figure>
+    </div>
+
+    <div class="sub">
+      <h3>Palette drawn from the collection</h3>
+      <div class="swatches">
+        <div class="sw"><i style="background:#0b0b0b"></i><div><b>LS Black</b><span>Marks, lacquer, type on ivory</span></div></div>
+        <div class="sw"><i style="background:#c9a45b"></i><div><b>PVD Gold</b><span>Foil, hardware, accents</span></div></div>
+        <div class="sw"><i style="background:#123326"></i><div><b>Humidor Green</b><span>Backgrounds, box interiors</span></div></div>
+        <div class="sw"><i style="background:#835d46"></i><div><b>Crocodile Tan</b><span>Leather goods</span></div></div>
+        <div class="sw"><i style="background:#6e5a4f"></i><div><b>Brazilian Walnut</b><span>Wood, displays</span></div></div>
+        <div class="sw"><i style="background:#efe7d5"></i><div><b>Cedar Ivory</b><span>Paper, inserts, labels</span></div></div>
+        <div class="sw"><i style="background:#9e2420"></i><div><b>Band Red</b><span>Perfect Melody family</span></div></div>
+      </div>
+      <p class="tbl-note">Colors sampled from LS PURO photography; confirm final Pantone and foil references with the printer.</p>
+    </div>
+
+    <div class="sub">
+      <h3>Touchpoint standards <span class="tag t-rec">Recommendation</span></h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Touchpoint</th><th>Standard</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Cigar boxes</strong></td><td>Solid cedar-lined boxes; lacquered humidor-green or black exterior with gold-foil LS pick; brass or gold-tone clasp on the exclusive tier; lot code and required statements on the base, never on the lid.</td></tr>
+            <tr><td><strong>Bands</strong></td><td>One LS mark, the official pick, on every band, in the same position. One color family per line so a customer can find it across the humidor; foot band with the line name. Embossed gold foil on heavy stock; low-tack glue that never touches the wrapper.</td></tr>
+            <tr><td><strong>Inserts</strong></td><td>Ivory card in every box: line story, blend (once confirmed), lot number, storage guidance, signed with the pick. Spanish on the reverse.</td></tr>
+            <tr><td><strong>Humidors</strong></td><td>A limited walnut and green-leather humidor for partner lounges and collectors; Spanish cedar lining, hygrometer, numbered plaque.</td></tr>
+            <tr><td><strong>Cutters &amp; lighters</strong></td><td>Already on-brand. Add a gift box in humidor green with gold foil, a warranty card and a care card; standardize “Puro” script placement across all pieces.</td></tr>
+            <tr><td><strong>Ashtrays &amp; travel cases</strong></td><td>Keep the LS-pattern ceramic and crocodile leather; add the pick to the travel-case closure; gift sleeve with the line story.</td></tr>
+            <tr><td><strong>Retail displays</strong></td><td>Walnut counter display holding one box per line plus the accessory set, with a small backlit pick; designed to fit inside a walk-in humidor shelf.</td></tr>
+            <tr><td><strong>Photography</strong></td><td>Production samples only. Low-key light on walnut and green leather, smoke used sparingly, gold kept warm, no people under 21 or who look it, no nightlife.</td></tr>
+            <tr><td><strong>Video</strong></td><td>Slow, quiet, tactile: hands, leaf, the cut, the first light. Guitar as the only score.</td></tr>
+            <tr><td><strong>Website</strong></td><td>Same palette and type as print; one product per screen; tasting notes as “movements”.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note"><strong>On the band designs:</strong> the current imagery shows two band families: an illustrated band with the LS mark in a pick-shaped shield, and a red crest band. Settle on one system per line before printing, and confirm rights to any illustration used on the bands. <span class="tag t-law">Attorney</span></p>
+    </div>
+
+    <div class="sub">
+      <h3>Typography</h3>
+      <div class="grid-3">
+        <div class="card"><h4>Signature</h4><p>The <em>Puro</em> script and the LS letterforms exactly as supplied. Never typeset as a substitute.</p></div>
+        <div class="card"><h4>Display</h4><p>A high-contrast Didone serif that echoes the LS letters, for headlines, line names and band text.</p></div>
+        <div class="card"><h4>Text</h4><p>A geometric sans that echoes the LENNY SANTOS wordmark, widely tracked in capitals for labels.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 08 WEBSITE ================= -->
+<section class="sec" id="website">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">08</span>
+      <div>
+        <p class="eyebrow">Website &amp; digital presence</p>
+        <h2>A private house with an age-checked door</h2>
+        <p class="lede">The site's two jobs are to make the brand feel like a luxury house and to turn qualified retailers and distributors into conversations. Cigar checkout is a later decision, state by state.</p>
+      </div>
+    </header>
+
+    <div class="callout" style="margin-bottom:28px"><strong>Recommendation:</strong> give LS PURO its own domain and site. The Puro collection currently sits, in draft, on the Los Iconos de la Bachata merchandise store, whose audience includes younger fans. A separate site lets the whole experience sit behind an age gate and keeps cigar marketing away from the music audience. <span class="tag t-rec">Recommendation</span></div>
+
+    <div class="grid-4">
+      <div class="card"><h4>Age gate</h4><p>Date-of-birth check on entry, 21+, remembered for the session; links to responsible-use and legal pages.</p></div>
+      <div class="card"><h4>Home</h4><p>The cover image, “Composed. Always.”, the three lines, the partner locator.</p></div>
+      <div class="card"><h4>The House</h4><p>Story, the composer, the master blender and the factory.</p></div>
+      <div class="card"><h4>The Collection</h4><p>One page per line: vitolas, blend, tasting notes in “movements”, box photography.</p></div>
+      <div class="card"><h4>Accessories</h4><p>Cutters, lighters, ashtrays, travel case; direct purchase available.</p></div>
+      <div class="card"><h4>Find a Humidor</h4><p>Partner locator by city; the main call to action for cigars.</p></div>
+      <div class="card"><h4>Trade</h4><p>Retailer inquiry form (licence number, store type, location); gated portal with the price list for approved accounts.</p></div>
+      <div class="card"><h4>Distributors · Contact · Legal</h4><p>Distributor inquiry form; press contact; privacy policy, terms, age policy and required warnings.</p></div>
+    </div>
+
+    <div class="sub">
+      <h3>Customer journeys</h3>
+      <div class="grid-2">
+        <ol class="steps">
+          <li><strong>Adult consumer</strong><span>Age gate → Home → The Collection → Find a Humidor → visits a partner, or buys an accessory online.</span></li>
+          <li><strong>Waitlist</strong><span>Date-of-birth confirmed sign-up → launch-evening invitation in their city → follow-up with the partner locator.</span></li>
+        </ol>
+        <ol class="steps">
+          <li><strong>Retailer</strong><span>Trade → inquiry form with licence → call within 2 business days → shop visit → onboarding.</span></li>
+          <li><strong>Distributor</strong><span>Distributors → inquiry with territory and licences → sell-through data shared under NDA → meeting.</span></li>
+        </ol>
+      </div>
+      <p class="tbl-note">Online sales note: many mainstream payment processors restrict tobacco sales, and several states restrict or license direct shipments of cigars. Confirm the processor's terms and each state's rules before switching on cigar checkout (see section 09). <span class="tag t-law">Attorney</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 09 COMPLIANCE ================= -->
+<section class="sec alt" id="compliance">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">09</span>
+      <div>
+        <p class="eyebrow">Legal, regulatory &amp; compliance roadmap</p>
+        <h2>The work that comes before the first sale</h2>
+        <p class="lede">Premium cigar regulation in the United States has been changed by litigation in recent years and differs by state. This is a research briefing to organize the work with a tobacco regulatory attorney. It is not legal advice, and no product should be marketed on the assumption that a manufacturer's existing operations cover a new brand.</p>
+      </div>
+    </header>
+    <div class="grid-2" style="align-items:start">
+      <div class="card gold">
+        <h4>The federal position today <span class="tag t-ver">Verified</span></h4>
+        <p>A federal court vacated FDA's 2016 “deeming rule” as it applies to premium cigars (August 2023). The D.C. Circuit largely affirmed in January 2025, and the district court finalized the definition in April 2026. No later appeal was found, though the docket could not be checked directly. <a href="#src-fda-premium" class="small">source</a></p>
+        <p><strong>In practice:</strong> an LS PURO cigar that meets all eight criteria needs no FDA premarket authorization, establishment registration, product listing or ingredient listing. <strong>Any SKU that misses one criterion stays under FDA rules</strong> and needs premarket authorization before sale. <span class="tag t-law">Attorney</span></p>
+        <p class="small mute">Still open: FDA may start new rulemaking, and bills that would write the exemption into law (H.R. 2111, S. 3922) have not passed. FDA says it intends not to charge premium cigars user fees but still sends invoices, so a new importer may need to dispute one. <span class="tag t-asm">In flux</span></p>
+      </div>
+      <div class="card">
+        <h4>Every SKU must meet all eight</h4>
+        <ol>
+          <li>Wrapped in whole tobacco leaf</li>
+          <li>Binder of 100% leaf tobacco</li>
+          <li>At least 50% long filler by weight</li>
+          <li>Made by hand or hand rolled</li>
+          <li>No filter, non-tobacco tip or mouthpiece</li>
+          <li>No characterizing flavor other than tobacco</li>
+          <li>Contains only tobacco, water and vegetable gum</li>
+          <li>Weighs more than 6 pounds per 1,000 cigars</li>
+        </ol>
+        <p class="small mute">These line up with the manufacturer specifications in section 02. Get each one certified in writing for every SKU.</p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Requirement by requirement</h3>
+      <div class="tbl-wrap">
+        <table class="wide" style="min-width:900px">
+          <thead><tr><th>Area</th><th>What applies</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Federal health warnings</strong></td><td>FDA's cigar warning requirements were vacated in 2020 and sent back to FDA. No mandatory federal health warning applies to premium cigars today; voluntary warnings are allowed. Other FDA labeling items may not reach premium cigars.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">Attorney</span></td></tr>
+            <tr><td><strong>TTB permits</strong></td><td>A federal permit is required to manufacture or import tobacco products. The U.S. consignee of imported cigars needs an importer permit, or LS PURO can use a third-party permitted importer. TTB says no federal licence is needed only to sell tobacco products. Permit processing has averaged around 137 days, so apply early.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">Structure</span></td></tr>
+            <tr><td><strong>Federal excise tax</strong></td><td>Large cigars: 52.75% of the importer's U.S. sale price, capped at $0.4026 per cigar. The importer owes it; CBP collects it on release from customs. Importers file a monthly report (TTB F 5220.6) and keep sale-price records.</td><td><span class="tag t-ver">Verified</span></td></tr>
+            <tr><td><strong>Package notices</strong></td><td>Every package must show the word “cigars” and the quantity. Domestically made packages also need the manufacturer's name and factory location, or its permit number. The “small/little” tax-class statement applies only to small cigars.</td><td><span class="tag t-ver">Verified</span></td></tr>
+            <tr><td><strong>Import duty</strong></td><td>Cigars valued at 23¢ or more fall under HTS 2402.10.80: base duty 57¢/kg + 1.4%, or free under CAFTA-DR if its origin rules are met. Since July 24, 2026, an additional 12.5% applies to Dominican and Nicaraguan goods.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">Broker</span></td></tr>
+            <tr><td><strong>Minimum age</strong></td><td>Federal law sets 21 as the minimum sale age, but whether it still reaches premium cigars after the vacatur is disputed. State age laws apply regardless. LS PURO policy: 21+ everywhere, with age verification and adult-signature delivery.</td><td><span class="tag t-asm">Uncertain</span> <span class="tag t-rec">Policy</span></td></tr>
+            <tr><td><strong>Online sales &amp; shipping</strong></td><td>The PACT Act's remote-sale rules exclude cigars, and USPS treats cigars as mailable. States differ: Hawaii has made shipping to non-licensees a crime unless state taxes are paid (since 2024); Utah opens a licensed remote-sale path for cigars from January 1, 2027.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">State review</span></td></tr>
+            <tr><td><strong>State taxes &amp; licences</strong></td><td>California: 51.08% of wholesale cost (from July 1, 2026). New York: 75% of wholesale price, and anyone importing more than 50 cigars into the state for sale is a “distributor”. Texas: $7.50–$15 per 1,000 cigars, plus distributor, wholesaler and retailer permits. Florida: cigars excluded from its other-tobacco tax.</td><td><span class="tag t-ver">Verified</span></td></tr>
+            <tr><td><strong>Flavor laws</strong></td><td>California bans flavored tobacco but exempts “premium cigars”: handmade, whole-leaf wrapper, wholesale price of at least $12, no filter or tip, capped by hand. Other cigars must appear on the Attorney General's Unflavored Tobacco List to be sold, and flavor words on packaging create a presumption of flavor. Massachusetts allows flavored products only in smoking bars, with no premium exemption. For LS PURO: keep descriptors like “sweetness” and “baking spice” from the Perfect Melody sheet off packaging until counsel clears them.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">Attorney</span></td></tr>
+            <tr><td><strong>California Prop 65</strong></td><td>Tobacco smoke is a listed chemical, so cigars sold in California need a Prop 65 warning. Whether California's separate rotating cigar-warning statute applies again is unclear.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">Attorney</span></td></tr>
+            <tr><td><strong>Advertising</strong></td><td>Meta and Google prohibit ads for cigars. The broadcast ad ban covers only cigarettes and little cigars, and the 1998 Master Settlement Agreement does not cover cigars. FTC rules on deceptive claims still apply: no health or “safer” claims.</td><td><span class="tag t-ver">Verified</span></td></tr>
+            <tr><td><strong>Free samples</strong></td><td>FDA's sample ban no longer reaches premium cigars, but states restrict sampling. New York, for example, allows free distribution only in bars, tobacco businesses, or 21+ areas at events with five days' notice.</td><td><span class="tag t-ver">Verified</span> <span class="tag t-law">State review</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Who is responsible for what</h3>
+      <div class="grid-3">
+        <div class="card"><h4>Factory (manufacturer)</h4><p>Builds to the eight criteria and certifies it; holds its own country's permits; supplies specs, origin and ingredient documents; packs with correct notices. A U.S. factory also needs a TTB manufacturer permit.</p></div>
+        <div class="card"><h4>Importer of record</h4><p>TTB importer permit; CBP entry; pays federal excise tax and duty; monthly TTB report; sale-price records. Can be LS PURO itself or a permitted third party.</p></div>
+        <div class="card"><h4>LS PURO (brand owner)</h4><p>Trademarks and the name-and-likeness licence; packaging content; advertising, sampling and age policy; Prop 65 compliance for California; state licences in any state where it acts as distributor or ships direct.</p></div>
+        <div class="card"><h4>Distributor / wholesaler</h4><p>State distributor or wholesaler licences; usually pays and reports state tobacco taxes; sells only to licensed retailers.</p></div>
+        <div class="card"><h4>Retailer</h4><p>State and local retail licences; age verification at sale; local flavor and sampling rules; Prop 65 signage in California.</p></div>
+        <div class="card"><h4>Official resources</h4><p class="small"><a href="https://www.fda.gov/tobacco-products" target="_blank" rel="noopener">FDA Center for Tobacco Products</a> · <a href="https://www.ttb.gov/regulated-commodities/tobacco" target="_blank" rel="noopener">TTB tobacco</a> · <a href="https://hts.usitc.gov/" target="_blank" rel="noopener">USITC tariff schedule</a> · <a href="https://www.cbp.gov/trade" target="_blank" rel="noopener">CBP trade</a> · <a href="https://www.ecfr.gov/current/title-27/part-40" target="_blank" rel="noopener">27 CFR part 40</a> · <a href="https://utl.doj.ca.gov/" target="_blank" rel="noopener">California Unflavored Tobacco List</a> · <a href="https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/" target="_blank" rel="noopener">California CDTFA</a> · <a href="https://www.tax.ny.gov/bus/cig/cigidx.htm" target="_blank" rel="noopener">New York tax</a> · <a href="https://comptroller.texas.gov/taxes/tobacco/cigar-tobacco.php" target="_blank" rel="noopener">Texas Comptroller</a> · <a href="https://www.uspto.gov/trademarks" target="_blank" rel="noopener">USPTO trademarks</a></p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Questions for a tobacco regulatory attorney and customs broker <span class="tag t-law">Attorney</span></h3>
+      <div class="grid-2">
+        <ol>
+          <li>Does every planned SKU meet all eight premium criteria, and how should that be documented?</li>
+          <li>Which TTB permit structure fits LS PURO: its own importer permit, or a third-party importer?</li>
+          <li>Do CAFTA-DR origin rules apply, how does the 12.5% duty stack, and are earlier tariff refunds relevant?</li>
+          <li>Which FDA labeling items, Prop 65 content and California warning rules apply to the packaging?</li>
+          <li>How should LS PURO handle an FDA user-fee invoice?</li>
+        </ol>
+        <ol start="6">
+          <li>Which state licences, taxes and shipping rules apply in each launch state, and for direct online sales?</li>
+          <li>Does the federal minimum-age law apply to premium cigars, and what age-verification standard should LS PURO adopt?</li>
+          <li>Do all SKUs clear California's $12 wholesale threshold?</li>
+          <li>Has anyone appealed the April 2026 order, or has FDA started new rulemaking?</li>
+          <li>Are the PURO trademark, the name-and-likeness licence and the band artwork all cleared?</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 10 OPERATIONS ================= -->
+<section class="sec" id="operations">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">10</span>
+      <div>
+        <p class="eyebrow">Financial &amp; operational launch plan</p>
+        <h2>What it costs, and how the cash moves</h2>
+        <p class="lede">Three budget scenarios, the operating sequence, and the measures that tell you whether the launch is working. Every figure below is a planning estimate to be replaced with written quotes.</p>
+      </div>
+    </header>
+
+    <div class="sub" style="margin-top:0">
+      <h3>Launch budget scenarios <span class="tag t-est">Estimate</span></h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Line item (USD thousands)</th><th class="r">Lean launch</th><th class="r">Professional market launch</th><th class="r">High-end luxury launch</th></tr></thead>
+          <tbody>
+            <tr><td>Scope</td><td class="r">1 line · 2 vitolas · 5,000 cigars</td><td class="r">3 lines · 6 SKUs · 20,000 cigars</td><td class="r">3 lines + limited edition · 40,000 cigars</td></tr>
+            <tr><td>Blend development &amp; samples</td><td class="r">5–10</td><td class="r">15–25</td><td class="r">30–50</td></tr>
+            <tr><td>Packaging &amp; band design, tooling, first print</td><td class="r">8–15</td><td class="r">20–40</td><td class="r">50–100</td></tr>
+            <tr><td>Legal: regulatory counsel, trademarks, contracts</td><td class="r">10–20</td><td class="r">25–45</td><td class="r">45–80</td></tr>
+            <tr><td>Photography &amp; video</td><td class="r">3–8</td><td class="r">12–25</td><td class="r">35–70</td></tr>
+            <tr><td>Website: age-gated site + trade portal</td><td class="r">3–6</td><td class="r">10–20</td><td class="r">25–50</td></tr>
+            <tr><td>Trade show</td><td class="r">attend: 3–6</td><td class="r">small booth: 20–40</td><td class="r">feature booth: 75–150</td></tr>
+            <tr><td>Sales: reps, travel, CRM</td><td class="r">founder-led: 5–10</td><td class="r">2–3 reps: 25–45</td><td class="r">sales manager + reps: 120–180</td></tr>
+            <tr><td>Launch events</td><td class="r">5–10</td><td class="r">20–40</td><td class="r">60–120</td></tr>
+            <tr><td>Trade sample kits &amp; sales materials</td><td class="r">3–5</td><td class="r">8–15</td><td class="r">20–35</td></tr>
+            <tr><td>Humidified storage, 3PL &amp; shipping</td><td class="r">2–5</td><td class="r">6–12</td><td class="r">15–30</td></tr>
+            <tr><td>Insurance: product &amp; general liability</td><td class="r">3–6</td><td class="r">6–12</td><td class="r">10–20</td></tr>
+            <tr><td>Contingency (10–15%)</td><td class="r">5–15</td><td class="r">17–48</td><td class="r">48–133</td></tr>
+            <tr><td><strong>Launch costs, excluding inventory</strong></td><td class="r"><strong>55–116</strong></td><td class="r"><strong>184–367</strong></td><td class="r"><strong>533–1,018</strong></td></tr>
+            <tr><td>First production run at landed cost</td><td class="r">22–30</td><td class="r">120–170</td><td class="r">300–450</td></tr>
+          </tbody>
+          <tfoot><tr><td>Total capital to plan for</td><td class="r">77–146</td><td class="r">304–537</td><td class="r">833–1,468</td></tr></tfoot>
+        </table>
+      </div>
+      <p class="tbl-note">Planning ranges for budgeting conversations, not quotes. Replace each line with written quotes before committing. Inventory uses the illustrative landed costs in section 04.</p>
+    </div>
+
+    <div class="sub">
+      <h3>Operating sequence</h3>
+      <div class="grid-2">
+        <ol class="steps">
+          <li><strong>Production planning</strong><span>Order quantity per SKU from the target account list: accounts × opening boxes × 2 (opening order plus first reorder) + samples + 15% safety stock.</span></li>
+          <li><strong>Manufacturing relationship</strong><span>Quarterly forecast shared with the factory; lead times and capacity in the contract; a factory visit at least twice a year.</span></li>
+          <li><strong>Packaging procurement</strong><span>Boxes and bands have their own lead times and minimums; order them in parallel with the blend's final rounds.</span></li>
+          <li><strong>Shipping &amp; logistics</strong><span>Licensed importer of record and customs broker; humidity-controlled, insured freight; avoid summer heat exposure.</span></li>
+        </ol>
+        <ol class="steps" start="5" style="counter-reset:s 4">
+          <li><strong>Warehousing</strong><span>A licensed, humidified warehouse or 3PL that already handles premium cigars and state tax reporting.</span></li>
+          <li><strong>Sales management</strong><span>A simple CRM: every account, licence expiry, order, sell-through count and next visit.</span></li>
+          <li><strong>Cash-flow planning</strong><span>Cash leaves early (factory deposit, packaging, federal excise tax at entry, launch spend) and returns late (net-30 terms after the first order). Plan for 6–9 months of negative cash flow. <span class="tag t-asm">Assumption</span></span></li>
+          <li><strong>Reorder forecasting</strong><span>Reorder point = average weekly depletion × (factory lead time + rest period + transit, in weeks) + safety stock.</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Performance measures</h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Measure</th><th>Definition</th><th>Review</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Accounts opened</strong></td><td>Partner humidors live, against the A-tier target list</td><td>Weekly</td></tr>
+            <tr><td><strong>Sell-through</strong></td><td>Units sold by the retailer ÷ units delivered, per SKU</td><td>Day 30 / 60 / 90</td></tr>
+            <tr><td><strong>Reorder rate</strong></td><td>Share of accounts placing a second order within 90 days</td><td>Monthly</td></tr>
+            <tr><td><strong>Event yield</strong></td><td>Boxes and accessories sold per partner evening</td><td>Per event</td></tr>
+            <tr><td><strong>Quality</strong></td><td>Complaints per 1,000 cigars, by lot; panel scores per lot</td><td>Per lot</td></tr>
+            <tr><td><strong>Gross margin &amp; contribution</strong></td><td>Actual against the section 04 model</td><td>Monthly</td></tr>
+            <tr><td><strong>Cash</strong></td><td>Days of cash on hand; receivables over 45 days</td><td>Weekly</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 11 DECK ================= -->
+<section class="sec alt" id="deck">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">11</span>
+      <div>
+        <p class="eyebrow">Sales presentation for retailers</p>
+        <h2>“LS PURO: Introducing a New Standard of Luxury.”</h2>
+        <p class="lede">Twelve slides for a 20-minute meeting in the shop. Each slide does one job; the cigar is on the table before slide 1.</p>
+      </div>
+    </header>
+    <div class="deck">
+      <article class="slide img" style="background-image:url('img/hero.jpg')"><span class="n">01</span><h3>Brand introduction</h3><ul><li>LS PURO · 2026 Collection</li><li>“Composed. Always.”</li></ul></article>
+      <article class="slide"><span class="n">02</span><h3>Brand story</h3><ul><li>Composition as craft</li><li>Lenny Santos, founding member of Aventura</li><li>The pick as signature of authorship</li></ul></article>
+      <article class="slide img" style="background-image:url('img/bands-accessories.jpg')"><span class="n">03</span><h3>Product collection</h3><ul><li>Perfect Melody · Legend Blend · Don Marino</li><li>11 accessories</li></ul></article>
+      <article class="slide img" style="background-image:url('img/perfect-melody-sumatra.jpg')"><span class="n">04</span><h3>Cigar specifications</h3><ul><li>Perfect Melody Sumatra · 6 × 54</li><li>Ecuador Sumatra · Corojo Criollo · Piloto Cubano &amp; Ligero</li><li>Box counts and codes</li></ul></article>
+      <article class="slide"><span class="n">05</span><h3>Quality &amp; craftsmanship</h3><ul><li>Factory and master blender</li><li>Draw-tested, color-sorted, lot-coded</li><li>Blind-panel results</li></ul></article>
+      <article class="slide img" style="background-image:url('img/scene-lighters.jpg')"><span class="n">06</span><h3>Luxury positioning</h3><ul><li>Ultra-premium core, numbered releases</li><li>A complete ritual under one mark</li></ul></article>
+      <article class="slide"><span class="n">07</span><h3>Target market</h3><ul><li>Connoisseurs, collectors and gifters</li><li>Established Latino professionals, 21+</li><li>New faces for your lounge</li></ul></article>
+      <article class="slide"><span class="n">08</span><h3>Competitive differentiation</h3><ul><li>Authorship, not endorsement</li><li>Cultural root no competitor holds</li><li>Proof first: blind against your benchmark</li></ul></article>
+      <article class="slide"><span class="n">09</span><h3>Wholesale opportunity</h3><ul><li>Full cigar margin at MSRP</li><li>55–60% on accessories</li><li>$1,190 retail-value accessory kit</li></ul></article>
+      <article class="slide"><span class="n">10</span><h3>Retailer benefits</h3><ul><li>Few partners per market; MSRP held</li><li>Events, education, display</li><li>Slow-mover exchange</li></ul></article>
+      <article class="slide img" style="background-image:url('img/scene-cutters.jpg')"><span class="n">11</span><h3>Proposed partnership</h3><ul><li>Launch Partner package</li><li>Evening within 30 days</li><li>Allocation of limited releases</li></ul></article>
+      <article class="slide"><span class="n">12</span><h3>Contact &amp; next steps</h3><ul><li>Opening order and delivery date</li><li>Staff session and event date</li><li>Account manager's direct line</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 12 RECOMMENDATIONS ================= -->
+<section class="sec" id="recommendations">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">12</span>
+      <div>
+        <p class="eyebrow">Executive recommendations</p>
+        <h2>The verdict</h2>
+        <p class="lede">LS PURO has rare assets for a new cigar brand: a name with real reach, a coherent luxury look, and a finished accessory line. What it does not yet have is the thing retailers buy: a proven cigar from a named factory, with the permits and paperwork behind it. Close that gap first, and launch small and excellent.</p>
+      </div>
+    </header>
+
+    <div class="grid-2">
+      <div class="card">
+        <h4>Five biggest opportunities</h4>
+        <ol>
+          <li><strong>Built-in demand</strong> from a global bachata audience that no cigar house speaks to.</li>
+          <li><strong>Accessories as an early, lower-regulation revenue stream</strong> with 55–60% retailer margins already priced.</li>
+          <li><strong>A distinctive, ownable story</strong>: composition and authorship, with a ready naming system.</li>
+          <li><strong>Lounge events as the growth engine</strong>: a name that fills a room for partner retailers.</li>
+          <li><strong>Limited, numbered releases</strong> that build collectors and allocation leverage.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h4>Five biggest risks</h4>
+        <ol>
+          <li><strong>The cigar underdelivers</strong> and the brand is filed as a celebrity novelty.</li>
+          <li><strong>Regulatory missteps</strong> on permits, labels, sampling or advertising, especially reaching under-21 fans.</li>
+          <li><strong>Rights gaps</strong>: name-and-likeness licence, trademark clearance for PURO, Aventura references, band art.</li>
+          <li><strong>Cash strain and cost shocks</strong> from inventory, the 12.5% import duty in force since July 2026, excise tax and launch spend before reorders arrive.</li>
+          <li><strong>Inconsistent supply</strong> from an unproven factory, or blend ownership left with the factory.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="grid-3">
+        <div class="card gold">
+          <h4>First steps, in order</h4>
+          <ol>
+            <li>Engage a tobacco regulatory attorney.</li>
+            <li>Sign the name-and-likeness licence; file trademarks.</li>
+            <li>Choose the manufacturer; sign a supply agreement that gives LS PURO the blend.</li>
+            <li>Complete the blend rounds and blind panel.</li>
+            <li>Set the price tier with real quotes in the section 04 model.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h4>Before the first production run</h4>
+          <ul>
+            <li>Golden samples approved and sealed</li>
+            <li>All spec sheets and declarations in hand</li>
+            <li>Packaging statements cleared by counsel</li>
+            <li>Permits for importer and brand roles in place</li>
+            <li>Order sized to the target account list</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Before approaching retailers</h4>
+          <ul>
+            <li>Production stock landed and stored properly</li>
+            <li>Price sheet, catalog and presentation printed</li>
+            <li>Blind-panel results documented</li>
+            <li>Age-gated site and locator live</li>
+            <li>Event calendar and Lenny's availability confirmed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>The most cost-effective entry that keeps the luxury intact</h3>
+      <p class="callout"><strong>Start with one market, one or two lines, and a handful of humidors.</strong> Launch Perfect Melody and Legend Blend (their bands already exist) in two vitolas each, with 15–20 flagship partners in a single metro area (South Florida is the strongest candidate: no state other-tobacco tax on cigars, a large Latino community and a deep lounge culture), sold direct by the founder team with accessories alongside. Spend on the cigar, the box and the in-person evenings, not on advertising. Hold MSRP. Add Don Marino, a distributor and the trade-show debut only after 90 days of reorder data. Scarcity reads as luxury; a thin national rollout reads as a celebrity novelty. <span class="tag t-rec">Recommendation</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APPENDIX ================= -->
+<section class="sec alt" id="appendix">
+  <div class="wrap">
+    <header class="sec-head">
+      <span class="sec-no">A</span>
+      <div>
+        <p class="eyebrow">Appendix</p>
+        <h2>Missing information, terms and sources</h2>
+      </div>
+    </header>
+
+    <div class="sub" style="margin-top:0">
+      <h3>Missing information and why it matters</h3>
+      <div class="tbl-wrap">
+        <table class="wide">
+          <thead><tr><th>Missing</th><th>Why it matters</th><th>Unblocks</th></tr></thead>
+          <tbody>
+            <tr><td>Manufacturer, factory, master blender</td><td>Credibility with retailers rests on who makes the cigar</td><td>02, 05, 11</td></tr>
+            <tr><td>Blends for Legend Blend and Don Marino; rolling location and aging for all lines</td><td>Needed for packaging, catalog, import duty, regulatory status and any “puro” claim</td><td>02, 04, 09, 11</td></tr>
+            <tr><td>Factory price, minimums, lead times</td><td>Without them, pricing and cash flow are only illustrative</td><td>04, 10</td></tr>
+            <tr><td>Who imports, who distributes, where LS PURO is based</td><td>Decides which federal permits and state licences LS PURO itself needs</td><td>09, 10</td></tr>
+            <tr><td>Name-and-likeness licence terms</td><td>Defines how Lenny's name, signature and image may be used, and for how long</td><td>01, 06</td></tr>
+            <tr><td>Trademark status for PURO and LS marks</td><td>“Puro” is a common cigar term; protection needs a clearance search</td><td>01, 07</td></tr>
+            <tr><td>Accessory unit costs and supplier</td><td>Needed to know LS PURO's own margin on accessories</td><td>04</td></tr>
+            <tr><td>Price-list item 12</td><td>Listed at $35 MSRP with no name</td><td>04, 05</td></tr>
+            <tr><td>Budget and target launch date</td><td>Selects the launch scenario and the calendar</td><td>06, 10</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Glossary in plain English</h3>
+      <dl class="kv">
+        <dt>Vitola</dt><dd>A cigar's size and shape, such as a Robusto. Written as length × ring gauge, for example 5 × 50.</dd>
+        <dt>Ring gauge</dt><dd>Diameter in 64ths of an inch. A 50 ring gauge is 50/64 of an inch across.</dd>
+        <dt>Wrapper · binder · filler</dt><dd>The outer leaf (<em>capa</em>), the leaf holding the bunch together (<em>capote</em>), and the leaves inside (<em>tripa</em>).</dd>
+        <dt>Long filler</dt><dd>Whole leaves running the length of the cigar, the mark of a premium handmade cigar.</dd>
+        <dt>Puro</dt><dd>Spanish for cigar; in the trade, also a cigar whose leaves all come from one country.</dd>
+        <dt>Draw</dt><dd>How easily air passes through a lit cigar. A “plugged” cigar barely draws.</dd>
+        <dt>Priming</dt><dd>The position of a leaf on the plant; higher primings are usually stronger.</dd>
+        <dt>Keystone</dt><dd>A retail price set at double the wholesale cost, about a 50% retailer margin.</dd>
+        <dt>MSRP · MAP</dt><dd>Manufacturer's suggested retail price; minimum advertised price policy.</dd>
+        <dt>FET · OTP</dt><dd>Federal excise tax; “other tobacco products”, the state tax category that usually covers cigars.</dd>
+        <dt>Landed cost</dt><dd>The full cost of a cigar delivered to the U.S. warehouse, taxes and freight included.</dd>
+        <dt>Sell-through</dt><dd>How much of what a retailer bought has actually sold to customers.</dd>
+        <dt>Allocation</dt><dd>Rationing limited cigars among retailers, usually rewarding loyal, high-sell-through accounts.</dd>
+      </dl>
+    </div>
+
+    <div class="sub" id="sources">
+      <h3>Sources</h3>
+      <p class="small mute">Research completed November 14, 2026. Official and primary sources were read directly where possible; trade-press figures are industry-reported. Recheck regulatory items with counsel before acting.</p>
+      <div class="grid-2 small">
+        <div class="stack" style="gap:.5rem">
+          <h4>LS PURO materials</h4>
+          <p>2026 Collection cover, accessories sell sheet with MSRP and wholesale (“Lenny Santos 1st List”), Perfect Melody Sumatra spec sheet (The VIP Collection), official LS marks, and LS PURO product photography.</p>
+          <h4>Regulation and tax</h4>
+          <ul>
+            <li id="src-fda-premium">FDA, notice on premium cigars and user fees following the April 15, 2026 order: <a href="https://www.fda.gov/media/192720/download" target="_blank" rel="noopener">fda.gov/media/192720</a>; FY26 Q1 user-fee notice: <a href="https://www.fda.gov/media/189722/download" target="_blank" rel="noopener">fda.gov/media/189722</a></li>
+            <li>Keller and Heckman, Tobacco Law Blog, Apr 23, 2026: <a href="https://www.tobaccolawblog.com/2026/04/federal-court-finalizes-definition-of-fda-exempt-premium-cigars/" target="_blank" rel="noopener">court finalizes premium cigar definition</a></li>
+            <li>FDA, cigar labeling and warning statement requirements: <a href="https://www.fda.gov/tobacco-products/labeling-and-warning-statements-tobacco-products/cigar-labeling-and-warning-statement-requirements" target="_blank" rel="noopener">fda.gov</a></li>
+            <li id="src-ttb-rates">TTB, tax and fee rates: <a href="https://www.ttb.gov/taxes/tax-audit/tax-and-fee-rates" target="_blank" rel="noopener">ttb.gov</a>; general tobacco FAQs (Sep 2026): <a href="https://www.ttb.gov/regulated-commodities/tobacco/faqs-general" target="_blank" rel="noopener">ttb.gov</a>; 26 U.S.C. 5713: <a href="https://uscode.house.gov/us/usc/t26/s5713/" target="_blank" rel="noopener">uscode.house.gov</a></li>
+            <li>eCFR, 27 CFR part 40 (package marks and notices): <a href="https://www.ecfr.gov/current/title-27/part-40" target="_blank" rel="noopener">ecfr.gov</a></li>
+            <li id="src-301">USITC Harmonized Tariff Schedule, heading 2402.10: <a href="https://hts.usitc.gov/search?query=2402.10" target="_blank" rel="noopener">hts.usitc.gov</a>; Federal Register, Section 301 actions, Jul 28, 2026: <a href="https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies" target="_blank" rel="noopener">federalregister.gov</a></li>
+            <li>PACT Act definitions, 15 U.S.C. 375: <a href="https://uscode.house.gov/us/usc/t15/s375/" target="_blank" rel="noopener">uscode.house.gov</a>; USPS Publication 52: <a href="https://pe.usps.com/text/pub52/pub52c4_026.htm" target="_blank" rel="noopener">pe.usps.com</a></li>
+            <li>Federal minimum age, 21 U.S.C. 387f: <a href="https://uscode.house.gov/us/usc/t21/s387f/" target="_blank" rel="noopener">uscode.house.gov</a></li>
+            <li>Hawaii Tax Information Release 2023-02: <a href="https://files.hawaii.gov/tax/legal/tir/tir23-02.pdf" target="_blank" rel="noopener">files.hawaii.gov</a></li>
+            <li>California CDTFA rates: <a href="https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/" target="_blank" rel="noopener">cdtfa.ca.gov</a>; Unflavored Tobacco List: <a href="https://utl.doj.ca.gov/" target="_blank" rel="noopener">utl.doj.ca.gov</a>; Attorney General letter on cigar warnings, Apr 11, 2018: <a href="https://oag.ca.gov/sites/all/files/agweb/pdfs/prop65/letter-cigar-warnings-041118.pdf" target="_blank" rel="noopener">oag.ca.gov</a></li>
+            <li>New York tobacco tax: <a href="https://www.tax.ny.gov/bus/cig/cigidx.htm" target="_blank" rel="noopener">tax.ny.gov</a>; Public Health Law 1399-bb: <a href="https://www.nysenate.gov/legislation/laws/PBH/1399-BB" target="_blank" rel="noopener">nysenate.gov</a></li>
+            <li>Texas Comptroller, cigar and tobacco tax: <a href="https://comptroller.texas.gov/taxes/tobacco/cigar-tobacco.php" target="_blank" rel="noopener">comptroller.texas.gov</a>; Florida Senate bill analysis, 2025: <a href="https://www.flsenate.gov/Session/Bill/2025/1418/Analyses/2025s01418.ri.PDF" target="_blank" rel="noopener">flsenate.gov</a></li>
+            <li>Massachusetts Acts of 2019, chapter 133: <a href="https://malegislature.gov/Laws/SessionLaws/Acts/2019/Chapter133" target="_blank" rel="noopener">malegislature.gov</a></li>
+            <li>Meta ad standards, tobacco: <a href="https://transparency.meta.com/policies/ad-standards/restricted-goods-services/tobacco-related-products/" target="_blank" rel="noopener">transparency.meta.com</a>; Google Ads policy: <a href="https://support.google.com/adspolicy/answer/6014299" target="_blank" rel="noopener">support.google.com</a>; Master Settlement Agreement: <a href="https://www.oag.ca.gov/sites/all/files/agweb/pdfs/tobacco/1msa.pdf" target="_blank" rel="noopener">oag.ca.gov</a></li>
+          </ul>
+        </div>
+        <div class="stack" style="gap:.5rem">
+          <h4>Market and competitors</h4>
+          <ul>
+            <li id="src-ca-imports">Cigar Aficionado, “Premium Cigar Imports Flat for 2025”, Apr 16, 2026: <a href="https://www.cigaraficionado.com/article/premium-cigar-imports-flat-for-2025" target="_blank" rel="noopener">cigaraficionado.com</a>; imports through August 2026, Nov 3, 2026: <a href="https://www.cigaraficionado.com/article/cigar-imports-flat-through-august-honduras-posts-notable-gain" target="_blank" rel="noopener">cigaraficionado.com</a></li>
+            <li id="src-nasem">National Academies, <em>Premium Cigars: Patterns of Use, Marketing, and Health Effects</em>, 2022: <a href="https://www.nationalacademies.org/read/26421/chapter/2" target="_blank" rel="noopener">nationalacademies.org</a></li>
+            <li id="src-path">Nicotine &amp; Tobacco Research (PATH Study analysis), 2023: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10381102" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov</a></li>
+            <li>Oettinger Davidoff, annual media release 2025: <a href="https://www.oettingerdavidoff.com/media/annual-media-release-2025" target="_blank" rel="noopener">oettingerdavidoff.com</a>; retail network: <a href="https://www.oettingerdavidoff.com/crop-to-shop/retail" target="_blank" rel="noopener">oettingerdavidoff.com</a></li>
+            <li id="src-holts">Holt's brand pages, per-cigar prices checked Nov 14, 2026: <a href="https://www.holts.com/cigars/all-cigar-brands" target="_blank" rel="noopener">holts.com</a>. Company profiles: Cigar Aficionado (Davidoff of Geneva USA, Padrón, My Father, Oliva, Ashton, Rocky Patel); <a href="https://www.jcnewman.com/family/" target="_blank" rel="noopener">J.C. Newman</a>; <a href="https://www.ashtondistributors.com/" target="_blank" rel="noopener">Ashton Distributors</a>; <a href="https://www.myfathercigars.com/" target="_blank" rel="noopener">My Father Cigars</a>; <a href="https://www.rockypatel.com/about/" target="_blank" rel="noopener">Rocky Patel</a></li>
+            <li>Padrón history, Cigar Aficionado, Aug 3, 2023: <a href="https://www.cigaraficionado.com/article/eleven-enlightening-facts-about-padron" target="_blank" rel="noopener">cigaraficionado.com</a></li>
+            <li id="src-ca-method">Cigar Aficionado, “How Cigar Aficionado Tastes Cigars”, 2020: <a href="https://www.cigaraficionado.com/article/how-cigar-aficionado-tastes-cigars" target="_blank" rel="noopener">cigaraficionado.com</a></li>
+            <li id="src-pca">Premium Cigar Association trade show: <a href="https://pcashow.org/" target="_blank" rel="noopener">pcashow.org</a></li>
+            <li>Celebrity brands: Romeo Santos and Carlos Fuente Jr., <a href="https://ensegundos.do/2026/09/25/romeo-santos-y-carlos-fuente-jr-lanzan-cigarros-en-honor-a-su-tio/" target="_blank" rel="noopener">ensegundos.do</a> (single source); MLP Cigars, <a href="https://listindiario.com/entretenimiento/urbano/20250607/mozart-presenta-marca-cigarros-mlp-cigars_860939.html" target="_blank" rel="noopener">listindiario.com</a>; Notorious, <a href="https://cigardojo.com/2025/03/conor-mcgregor-launches-notorious-cigars/" target="_blank" rel="noopener">cigardojo.com</a>; Blackened, <a href="https://www.cigaraficionado.com/index.php/article/enter-cigar-man-metallica-s-james-hetfield-and-drew-estate-create-blackened-cigar" target="_blank" rel="noopener">cigaraficionado.com</a>; Knuckle Sandwich, <a href="https://cigar-coop.com/2022/12/2022-year-in-review-top-12-cigar-industry-stories-and-themes-of-2022.html" target="_blank" rel="noopener">cigar-coop.com</a>; Escobar, <a href="https://www.cigaraficionado.com/article/new-york-rapper-nas-pairs-up-with-escobar-cigars" target="_blank" rel="noopener">cigaraficionado.com</a>; Cohiba Comador, <a href="https://inthehumidor.com/?p=2520" target="_blank" rel="noopener">inthehumidor.com</a>; editorial on celebrity cigars, <a href="https://thecigarauthority.com/celebrities-tried-become-cigar-lebrities-david-garofalo-editorial/" target="_blank" rel="noopener">thecigarauthority.com</a></li>
+            <li>Trade practice (thin sources, treated as assumptions): retail margins, <a href="https://tobaccobusiness.com/magazine/TOB_july-aug_2014/files/assets/basic-html/page14.html" target="_blank" rel="noopener">Tobacco Business, 2014</a>; opening orders, <a href="https://mdcwholesalecigars.com/blog/distributor-vs-retailer-vs-direct" target="_blank" rel="noopener">wholesaler blog</a>; in-store events, <a href="https://www.jcnewman.com/company/jcnewman-cigar-events/" target="_blank" rel="noopener">J.C. Newman</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div class="stack" style="gap:6px">
+      <span>Prepared for LS PURO LLC · November 2026 · Trade pricing is shared with approved accounts.</span>
+      <span>Brand marks and imagery © 2026 LS PURO LLC. Research briefing only; not legal, tax or financial advice. For adults 21 and over.</span>
+    </div>
+    <img src="img/logo-pick.png" width="412" height="480" alt="LS guitar-pick mark">
+  </div>
+</footer>
+
+<script>
+(function(){
+  // section highlight + progress
+  var links=[].slice.call(document.querySelectorAll('.toc a'));
+  var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
+  var bar=document.getElementById('progress');
+  function onScroll(){
+    var h=document.documentElement;var max=h.scrollHeight-h.clientHeight;
+    bar.style.transform='scaleX('+(max>0?Math.min(1,h.scrollTop/max):0)+')';
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting&&map[e.target.id]){
+          links.forEach(function(l){l.classList.remove('on')});
+          var a=map[e.target.id];a.classList.add('on');
+          var nav=a.parentNode;var left=a.offsetLeft-nav.clientWidth/2+a.clientWidth/2;
+          nav.scrollTo({left:left,behavior:'smooth'});
+        }
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el)});
+  }
+
+  // pricing model
+  var $=function(id){return document.getElementById(id)};
+  var presets={
+    premium:{msrp:16,box:20,factory:2.75,pack:0.90,freight:0.35},
+    ultra:{msrp:26,box:10,factory:4.75,pack:1.75,freight:0.40},
+    exclusive:{msrp:55,box:10,factory:9.50,pack:5.00,freight:0.60}
+  };
+  function n(id){var v=parseFloat($(id).value);return isFinite(v)?v:0}
+  function money(v){return (v<0?'−$':'$')+Math.abs(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}
+  function pct(v){return isFinite(v)?(v*100).toFixed(1)+'%':'—'}
+  function calc(){
+    var msrp=Math.max(0,n('c-msrp')),rm=n('c-retail')/100,dist=$('c-channel').value==='distributor',dm=n('c-dist')/100;
+    var fac=n('c-factory'),pack=n('c-pack'),fr=n('c-freight'),cm=n('c-comm')/100,box=Math.max(1,Math.round(n('c-box'))),fixed=n('c-fixed');
+    var duty=(fac+pack)*n('c-duty')/100;
+    $('c-dist').disabled=!dist;
+    var retailBuys=msrp*(1-rm),brand=dist?retailBuys*(1-dm):retailBuys;
+    var fet=Math.max(0,Math.min(0.5275*brand,0.4026)),landed=fac+pack+fr+duty+fet,gp=brand-landed,comm=brand*cm,contrib=gp-comm;
+    $('o-retail').textContent=money(retailBuys);
+    $('o-brand').textContent=money(brand);
+    $('o-fet').textContent=money(fet);
+    $('o-landed').textContent=money(landed);
+    $('o-gp').innerHTML=money(gp)+' <small>'+pct(brand>0?gp/brand:NaN)+'</small>';
+    $('o-contrib').innerHTML=money(contrib)+' <small>'+pct(brand>0?contrib/brand:NaN)+'</small>';
+    $('o-box').textContent=money(contrib*box);
+    $('o-contrib-box').classList.toggle('bad',contrib<=0);
+    if(contrib>0){
+      var be=Math.ceil(fixed/contrib);
+      $('o-be').innerHTML=be.toLocaleString('en-US')+' <small>cigars · '+Math.ceil(be/box).toLocaleString('en-US')+' boxes</small>';
+    } else {
+      $('o-be').innerHTML='— <small>no contribution at this price</small>';
+    }
+    var segs=[msrp-retailBuys,retailBuys-brand,fac,pack,fr,duty,fet,comm,Math.max(0,contrib)];
+    var total=segs.reduce(function(a,b){return a+Math.max(0,b)},0)||1;
+    [].slice.call($('wf').children).forEach(function(s,i){s.style.flexBasis=(Math.max(0,segs[i])/total*100)+'%'});
+  }
+  [].slice.call(document.querySelectorAll('#calc input,#calc select')).forEach(function(el){el.addEventListener('input',calc);el.addEventListener('change',calc)});
+  [].slice.call(document.querySelectorAll('[data-preset]')).forEach(function(b){
+    b.addEventListener('click',function(){
+      var p=presets[b.getAttribute('data-preset')];
+      $('c-msrp').value=p.msrp;$('c-box').value=p.box;$('c-factory').value=p.factory.toFixed(2);$('c-pack').value=p.pack.toFixed(2);$('c-freight').value=p.freight.toFixed(2);
+      [].slice.call(document.querySelectorAll('[data-preset]')).forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+      calc();
+    });
+  });
+  calc();
+})();
+</script>
+</body>
+</html>
